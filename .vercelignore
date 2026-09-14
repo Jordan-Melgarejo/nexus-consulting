@@ -1,0 +1,15 @@
+.vercel/
+dev-tools/
+*.py
+__pycache__/
+screenshots/
+screenshots_verified/
+mobile_shots/
+*.pdf
+*.log
+.git/
+.gitignore
+README.md
+.env*
+.backup_safe/
+CONTEXT.md

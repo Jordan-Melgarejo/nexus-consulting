@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 56" fill="none">
+  <!-- Modern Geometric Icon -->
+  <g transform="translate(4, 4)">
+    <polygon points="24 2, 44 14, 44 38, 24 50, 4 38, 4 14" stroke="#008bb0" stroke-width="3" fill="none" opacity="0.4"/>
+    <polygon points="24 10, 38 18, 38 34, 24 42, 10 34, 10 18" fill="url(#nexus-grad)"/>
+    <circle cx="24" cy="26" r="4" fill="#ffffff"/>
+  </g>
+  
+  <!-- Text Brand -->
+  <text x="64" y="32" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="24" fill="#0f1d2e" letter-spacing="-0.5">NEXUS</text>
+  <text x="65" y="46" font-family="'Inter', sans-serif" font-weight="600" font-size="9" fill="#34b5ae" letter-spacing="2.5">CONSULTING</text>
+  
+  <defs>
+    <linearGradient id="nexus-grad" x1="10" y1="10" x2="38" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34b5ae"/>
+      <stop offset="0.6" stop-color="#008bb0"/>
+      <stop offset="1" stop-color="#1d71b8"/>
+    </linearGradient>
+  </defs>
+</svg>

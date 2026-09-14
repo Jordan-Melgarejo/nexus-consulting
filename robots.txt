@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /dev-tools/
+Disallow: /api/
+Disallow: /*.json$
+
+Sitemap: https://www.growsolutions.com.py/sitemap.xml

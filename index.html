@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consultoría de Transformación Empresarial en Paraguay | Nexus Consulting</title>
+  <meta name="description" content="Consultora boutique de transformación empresarial en Paraguay. Alineamos estrategia, cultura, procesos y tecnología para lograr cambios sostenibles.">
+  <link rel="canonical" href="https://www.nexusconsulting.demo/">
+  <meta name="author" content="Nexus Consulting">
+  <meta name="geo.region" content="PY-ASU">
+  <meta name="geo.placename" content="Asunción">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nexus Consulting">
+  <meta property="og:locale" content="es_PY">
+  <meta property="og:title" content="Consultoría de Transformación Empresarial en Paraguay | Nexus Consulting">
+  <meta property="og:description" content="Consultora boutique de transformación empresarial. Estrategia, cultura, procesos y tecnología para cambios sostenibles.">
+  <meta property="og:url" content="https://www.nexusconsulting.demo/">
+  <meta property="og:image" content="assets/brand/Nexus_Logo.svg">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Consultoría de Transformación Empresarial en Paraguay | Nexus Consulting">
+  <meta name="twitter:description" content="Estrategia, cultura, procesos y tecnología para transformar organizaciones de forma sostenible.">
+  <meta name="twitter:image" content="assets/brand/Nexus_Logo.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Datos estructurados -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://www.nexusconsulting.demo/#organization",
+    "name": "Nexus Consulting",
+    "legalName": "Nexus Consulting Group",
+    "description": "Consultora paraguaya de transformación empresarial. Integra estrategia, cultura, procesos, tecnología y talento para la adopción tecnológica humanizada.",
+    "url": "https://www.nexusconsulting.demo/",
+    "email": "hablemos@nexusconsulting.demo",
+    "telephone": "+59521600000",
+    "foundingDate": "2021-06",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Corporativa Paseo, Piso 10, Ofic. B2 — San Juan XXIII N.° 2046 esq. Tte. 1.° Dr. Oddone",
+      "addressLocality": "Asunción",
+      "addressCountry": "PY"
+    },
+    "areaServed": [
+      {"@type": "Country", "name": "Paraguay"},
+      {"@type": "Place", "name": "América Latina"}
+    ],
+    "knowsLanguage": ["es", "en"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Barra de progreso de lectura superior -->
+  <div class="readbar" id="readBar" aria-hidden="true"></div>
+  <div class="read-context" id="readContext" aria-hidden="true"></div>
+
+  <span id="hdr-sentinel" aria-hidden="true"></span>
+
+  <!-- ========================================================================
+       CABECERA & NAVEGACIÓN PRINCIPAL
+       ======================================================================== -->
+  <header id="hdr">
+    <div class="container hdr-inner">
+      <div class="logo" onclick="goTo('home')" role="link" tabindex="0" aria-label="Ir al inicio">
+        <img src="assets/brand/Nexus_Logo.svg" alt="Nexus Consulting" class="logo-img">
+      </div>
+
+      <nav class="mainnav">
+        <a data-page="home" class="active" onclick="goTo('home')">Inicio</a>
+        <a onclick="goHomeTo('como-trabajamos')">Cómo trabajamos</a>
+        
+        <div class="nav-group">
+          <button class="nav-trigger" type="button" aria-haspopup="true" onclick="goHomeTo('que-hacemos')">Soluciones</button>
+          <div class="nav-dropdown">
+            <a data-page="business-consulting" onclick="goTo('business-consulting')">Business Consulting</a>
+            <a data-page="smart-process" onclick="goTo('smart-process')">Smart Process</a>
+            <a data-page="research" onclick="goTo('research')">Research &amp; Insights</a>
+            <a data-page="talent" onclick="goTo('talent')">Talent &amp; Executive Solutions</a>
+          </div>
+        </div>
+
+        <a onclick="goHomeTo('experiencia')">Experiencia</a>
+        <a data-page="nosotros" onclick="goTo('nosotros')">Nosotros</a>
+      </nav>
+
+      <a class="btn btn-primary btn-nav" onclick="goTo('contacto')">
+        <span>Hablemos</span>
+        <span class="btn-icon-circle-nav">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </span>
+      </a>
+
+      <button class="hamburger" onclick="toggleMobile()" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menú móvil desplegable a pantalla completa con scroll interno propio -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="container mobile-menu-inner">
+      <a data-page="home" onclick="goTo('home')">Inicio</a>
+      <a onclick="goHomeTo('como-trabajamos')">Cómo trabajamos</a>
+      <details class="mobile-solutions">
+        <summary>
+          <span>Soluciones</span>
+          <span class="mobile-acc-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="mobile-submenu">
+          <a onclick="goHomeTo('que-hacemos')" class="sublink-overview">
+            <span>Visión general de Soluciones</span>
+            <span class="sublink-arrow">&rarr;</span>
+          </a>
+          <div class="submenu-divider"></div>
+          <span class="submenu-label">UNIDADES DE NEGOCIO</span>
+          <a data-page="business-consulting" onclick="goTo('business-consulting')">
+            <span>Business Consulting</span>
+            <span class="sublink-arrow">&rarr;</span>
+          </a>
+          <a data-page="smart-process" onclick="goTo('smart-process')">
+            <span>Smart Process</span>
+            <span class="sublink-arrow">&rarr;</span>
+          </a>
+          <a data-page="research" onclick="goTo('research')">
+            <span>Research &amp; Insights</span>
+            <span class="sublink-arrow">&rarr;</span>
+          </a>
+          <a data-page="talent" onclick="goTo('talent')">
+            <span>Talent &amp; Executive Solutions</span>
+            <span class="sublink-arrow">&rarr;</span>
+          </a>
+        </div>
+      </details>
+      <a onclick="goHomeTo('experiencia')">Experiencia</a>
+      <a data-page="nosotros" onclick="goTo('nosotros')">Nosotros</a>
+      <a onclick="goTo('contacto')" class="mobile-menu-cta">Hablemos &rarr;</a>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       PAGE 1: HOME (PORTADA PRINCIPAL)
+       ======================================================================== -->
+  <div class="page active" id="page-home">
+    
+    <!-- HERO EXPANSIVO Y PROFESIONAL CON ORBES FLOTANTES -->
+    <section class="hero" id="inicio">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <canvas id="hero-network-canvas" class="hero-network-canvas" aria-hidden="true"></canvas>
+
+      <div class="container hero-inner">
+        <span class="eyebrow" data-reveal>Consultora boutique de transformación empresarial &middot; Paraguay</span>
+        <h1 data-reveal style="--i:1">Transformamos la <span class="hl">cultura y los procesos</span> que hacen crecer a tu organización.</h1>
+        <p class="lead" data-reveal style="--i:2">Alineamos estrategia, cultura, procesos y tecnología para convertir desafíos complejos en cambios concretos y sostenibles.</p>
+        
+        <div class="hero-actions" data-reveal style="--i:3">
+          <a class="btn btn-primary" onclick="goTo('contacto')">
+            <span>Conversemos sobre tu empresa</span>
+            <span class="btn-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+          <a class="btn btn-ghost" onclick="scrollToId('como-trabajamos')">Conocé cómo trabajamos</a>
+        </div>
+
+        <div class="hero-proof" data-reveal style="--i:4">
+          <span>Involucramiento senior</span>
+          <span>Diagnóstico integral</span>
+          <span>Ejecución real</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTES QUE CONFÍAN (MARQUEE) -->
+    <section class="tight" id="experiencia">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Confían en nosotros</span>
+          <h2><span class="hl">+50 empresas</span> paraguayas y de LATAM</h2>
+          <p class="lead">De banca, fintech e industria a cooperativas y firmas de servicios profesionales.</p>
+        </div>
+
+        <div class="mq" data-marquee data-mq-src="clientes">
+          <div class="mq-track fast">
+            <ul class="mq-row">
+              <li><img src="assets/brand/Interfisa_Banco.png" alt="Interfisa Banco" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Cervepar.png" alt="Cervepar" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/CMP_Group.png" alt="CMP Group" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Bauen.png" alt="Bauen" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Seltz.png" alt="Seltz" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Aseguradora_Yacyreta.png" alt="Aseguradora Yacyretá" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Grupo_Vazquez.png" alt="Grupo Vázquez" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Mirgor.png" alt="Mirgor+" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Britimp.png" alt="Britimp" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/ISS.png" alt="ISS" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Grupo_Guide.png" alt="Grupo Guide" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Bepsa.png" alt="Bepsa" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Raizen.png" alt="Raízen" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/DGRV.png" alt="DGRV" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Banco_Rio.png" alt="Banco Río" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Banco_Basa.png" alt="Banco Basa" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Grupo_Riquelme.png" alt="Grupo Riquelme" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/CONIN_Paraguay.png" alt="CONIN Paraguay" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Cooperativa_Nazareth.png" alt="Cooperativa Nazareth" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Continental.png" alt="Continental" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Nestle.png" alt="Nestlé" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Fapasa.png" alt="Fapasa" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/FIC_de_Finanzas.png" alt="FIC de Finanzas" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/MSC.png" alt="MSC" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/E-Services.png" alt="E-Services" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Hilagro.png" alt="Hilagro" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Celexx.png" alt="Celexx" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Packem.png" alt="Packem" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Comecipar.png" alt="Comecipar" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Universitaria.png" alt="Universitaria" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Cooperativa_Serrana.png" alt="Cooperativa Serrana" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Santo_Domingo_de_Guzman.png" alt="Santo Domingo de Guzmán" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Fenacrep.png" alt="Fenacrep" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Norandino.png" alt="Norandino" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Banco_de_Alimentos.png" alt="Banco de Alimentos" loading="eager" decoding="async"></li>
+              <li><img src="assets/brand/Grupo_Corven.png" alt="Grupo Corven" loading="eager" decoding="async"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mq-controls-bar">
+          <button class="mq-pause" type="button" aria-pressed="false">Pausar movimiento</button>
+
+          <!-- Selector de vista: Marquee continuo vs Ver por sector -->
+          <div class="clients-view-toggle">
+            <button class="view-btn is-active" type="button" id="btnViewMarquee" onclick="setClientsView('marquee')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M12 4l8 8-8 8"/></svg>
+              <span>Vista continua</span>
+            </button>
+            <button class="view-btn" type="button" id="btnViewSectors" onclick="setClientsView('sectors')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              <span>Ver por sector</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Panel de clientes por sector (filtrable) -->
+        <div class="clients-sectors-panel" id="clientsSectorsPanel" hidden>
+          <div class="sector-filters">
+            <button class="sec-filter is-active" type="button" data-sec="all" onclick="filterClientsSector('all')">Todos (36)</button>
+            <button class="sec-filter" type="button" data-sec="banca" onclick="filterClientsSector('banca')">Banca &amp; Finanzas (6)</button>
+            <button class="sec-filter" type="button" data-sec="industria" onclick="filterClientsSector('industria')">Industria &amp; Consumo (9)</button>
+            <button class="sec-filter" type="button" data-sec="cooperativas" onclick="filterClientsSector('cooperativas')">Cooperativas (8)</button>
+            <button class="sec-filter" type="button" data-sec="corporativo" onclick="filterClientsSector('corporativo')">Servicios &amp; Tech (13)</button>
+          </div>
+
+          <div class="clients-grid-categorized">
+            <!-- Banca & Finanzas -->
+            <div class="client-box spotlight-card" data-sector="banca"><img src="assets/brand/Interfisa_Banco.png" alt="Interfisa Banco" loading="lazy" decoding="async"><span class="c-tag">Banca</span></div>
+            <div class="client-box spotlight-card" data-sector="banca"><img src="assets/brand/Banco_Basa.png" alt="Banco Basa" loading="lazy" decoding="async"><span class="c-tag">Banca</span></div>
+            <div class="client-box spotlight-card" data-sector="banca"><img src="assets/brand/Banco_Rio.png" alt="Banco Río" loading="lazy" decoding="async"><span class="c-tag">Banca</span></div>
+            <div class="client-box spotlight-card" data-sector="banca"><img src="assets/brand/FIC_de_Finanzas.png" alt="FIC de Finanzas" loading="lazy" decoding="async"><span class="c-tag">Financiera</span></div>
+            <div class="client-box spotlight-card" data-sector="banca"><img src="assets/brand/Bepsa.png" alt="Bepsa" loading="lazy" decoding="async"><span class="c-tag">Medios de pago</span></div>
+            <div class="client-box spotlight-card" data-sector="banca"><img src="assets/brand/Continental.png" alt="Continental" loading="lazy" decoding="async"><span class="c-tag">Banca</span></div>
+
+            <!-- Industria & Consumo -->
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Cervepar.png" alt="Cervepar" loading="lazy" decoding="async"><span class="c-tag">Bebidas</span></div>
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Seltz.png" alt="Seltz" loading="lazy" decoding="async"><span class="c-tag">Bebidas</span></div>
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Nestle.png" alt="Nestlé" loading="lazy" decoding="async"><span class="c-tag">Alimentos</span></div>
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Raizen.png" alt="Raízen" loading="lazy" decoding="async"><span class="c-tag">Energía</span></div>
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Fapasa.png" alt="Fapasa" loading="lazy" decoding="async"><span class="c-tag">Farmacéutica</span></div>
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Hilagro.png" alt="Hilagro" loading="lazy" decoding="async"><span class="c-tag">Agroindustria</span></div>
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Packem.png" alt="Packem" loading="lazy" decoding="async"><span class="c-tag">Manufactura</span></div>
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Grupo_Corven.png" alt="Grupo Corven" loading="lazy" decoding="async"><span class="c-tag">Movilidad</span></div>
+            <div class="client-box spotlight-card" data-sector="industria"><img src="assets/brand/Grupo_Riquelme.png" alt="Grupo Riquelme" loading="lazy" decoding="async"><span class="c-tag">Consumo</span></div>
+
+            <!-- Cooperativas -->
+            <div class="client-box spotlight-card" data-sector="cooperativas"><img src="assets/brand/Comecipar.png" alt="Comecipar" loading="lazy" decoding="async"><span class="c-tag">Cooperativa</span></div>
+            <div class="client-box spotlight-card" data-sector="cooperativas"><img src="assets/brand/Universitaria.png" alt="Universitaria" loading="lazy" decoding="async"><span class="c-tag">Cooperativa</span></div>
+            <div class="client-box spotlight-card" data-sector="cooperativas"><img src="assets/brand/Cooperativa_Nazareth.png" alt="Cooperativa Nazareth" loading="lazy" decoding="async"><span class="c-tag">Cooperativa</span></div>
+            <div class="client-box spotlight-card" data-sector="cooperativas"><img src="assets/brand/Cooperativa_Serrana.png" alt="Cooperativa Serrana" loading="lazy" decoding="async"><span class="c-tag">Cooperativa</span></div>
+            <div class="client-box spotlight-card" data-sector="cooperativas"><img src="assets/brand/Santo_Domingo_de_Guzman.png" alt="Santo Domingo de Guzmán" loading="lazy" decoding="async"><span class="c-tag">Cooperativa</span></div>
+            <div class="client-box spotlight-card" data-sector="cooperativas"><img src="assets/brand/Fenacrep.png" alt="Fenacrep" loading="lazy" decoding="async"><span class="c-tag">Gremio</span></div>
+            <div class="client-box spotlight-card" data-sector="cooperativas"><img src="assets/brand/Norandino.png" alt="Norandino" loading="lazy" decoding="async"><span class="c-tag">Microfinanzas</span></div>
+            <div class="client-box spotlight-card" data-sector="cooperativas"><img src="assets/brand/DGRV.png" alt="DGRV" loading="lazy" decoding="async"><span class="c-tag">Desarrollo</span></div>
+
+            <!-- Servicios & Tech -->
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/Mirgor.png" alt="Mirgor+" loading="lazy" decoding="async"><span class="c-tag">Tecnología</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/Bauen.png" alt="Bauen" loading="lazy" decoding="async"><span class="c-tag">Desarrollo</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/CMP_Group.png" alt="CMP Group" loading="lazy" decoding="async"><span class="c-tag">Holding</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/Aseguradora_Yacyreta.png" alt="Aseguradora Yacyretá" loading="lazy" decoding="async"><span class="c-tag">Seguros</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/Grupo_Vazquez.png" alt="Grupo Vázquez" loading="lazy" decoding="async"><span class="c-tag">Corporativo</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/Britimp.png" alt="Britimp" loading="lazy" decoding="async"><span class="c-tag">Servicios</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/ISS.png" alt="ISS" loading="lazy" decoding="async"><span class="c-tag">Facility</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/Grupo_Guide.png" alt="Grupo Guide" loading="lazy" decoding="async"><span class="c-tag">Servicios</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/Celexx.png" alt="Celexx" loading="lazy" decoding="async"><span class="c-tag">Telecom</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/E-Services.png" alt="E-Services" loading="lazy" decoding="async"><span class="c-tag">BPO</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/MSC.png" alt="MSC" loading="lazy" decoding="async"><span class="c-tag">Logística</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/CONIN_Paraguay.png" alt="CONIN Paraguay" loading="lazy" decoding="async"><span class="c-tag">Social</span></div>
+            <div class="client-box spotlight-card" data-sector="corporativo"><img src="assets/brand/Banco_de_Alimentos.png" alt="Banco de Alimentos" loading="lazy" decoding="async"><span class="c-tag">Social</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDICADORES CLAVE (KPIs CON CONTADOR) -->
+    <section class="alt tight">
+      <div class="container">
+        <div class="kpi-grid" data-reveal-group>
+          <div class="kpi" data-reveal>
+            <span class="kpi-num">+<span data-count="30">30</span></span>
+            <span class="kpi-label">procesos de transformación acompañados</span>
+          </div>
+          <div class="kpi" data-reveal>
+            <span class="kpi-num">+<span data-count="50">50</span></span>
+            <span class="kpi-label">empresas confiaron en Nexus</span>
+          </div>
+          <div class="kpi" data-reveal>
+            <span class="kpi-num"><span data-count="4">4</span></span>
+            <span class="kpi-label">áreas de servicio integradas en una sola mirada</span>
+          </div>
+          <div class="kpi" data-reveal>
+            <span class="kpi-num">+<span data-count="5">5</span></span>
+            <span class="kpi-label">años de trayectoria</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO TRABAJAMOS (ENFOQUE Nexus — SPLIT STICKY SCROLL) -->
+    <section class="alt" id="como-trabajamos">
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">Cómo trabajamos</span>
+          <h2>Entendemos, priorizamos y acompañamos la transformación</h2>
+          <p class="lead">Combinamos diagnóstico, diseño e implementación para abordar cada desafío desde la realidad de la organización.</p>
+        </div>
+
+        <div class="split">
+          <!-- Tarjeta fija sticky a la izquierda con las 8 dimensiones -->
+          <div class="split-media">
+            <div class="approach-card">
+              <span class="approach-badge">ENFOQUE Nexus</span>
+              <h3>Una mirada integral</h3>
+              <p class="sub">Conectamos las dimensiones que sostienen el cambio.</p>
+              
+              <div class="approach-dims">
+                <div class="approach-dim" data-dim="0"><span class="dot"></span>Estrategia</div>
+                <div class="approach-dim" data-dim="1"><span class="dot"></span>Cultura</div>
+                <div class="approach-dim" data-dim="2"><span class="dot"></span>Procesos</div>
+                <div class="approach-dim" data-dim="3"><span class="dot"></span>Tecnología</div>
+                <div class="approach-dim" data-dim="4"><span class="dot"></span>Talento</div>
+                <div class="approach-dim" data-dim="5"><span class="dot"></span>Liderazgo</div>
+                <div class="approach-dim" data-dim="6"><span class="dot"></span>Experiencia del cliente</div>
+                <div class="approach-dim" data-dim="7"><span class="dot"></span>Datos</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Selector de pasos táctil para móvil (reduce scroll vertical) -->
+          <div class="steps-mobile-stepper" aria-label="Fases del Enfoque Nexus">
+            <button type="button" class="step-nav-btn is-active" data-step-target="0"><span>01</span> Contexto</button>
+            <button type="button" class="step-nav-btn" data-step-target="1"><span>02</span> Prioridad</button>
+            <button type="button" class="step-nav-btn" data-step-target="2"><span>03</span> Solución</button>
+            <button type="button" class="step-nav-btn" data-step-target="3"><span>04</span> Implementación</button>
+          </div>
+
+          <!-- Pasos con scroll interactivo a la derecha -->
+          <div class="split-steps">
+            <article class="step is-active" data-step data-dims="0,1,2,3,4,5,6,7">
+              <span class="step-num">Paso 01</span>
+              <h3>Entendemos el contexto</h3>
+              <p>Escuchamos a líderes y equipos, relevamos información y observamos cómo funciona realmente la organización.</p>
+              <div class="step-dims-mobile" aria-label="Dimensiones clave abordadas">
+                <span class="dim-chip"><span class="dot"></span>Mirada Integral (8 dimensiones)</span>
+              </div>
+            </article>
+
+            <article class="step" data-step data-dims="2,3,7">
+              <span class="step-num">Paso 02</span>
+              <h3>Identificamos lo prioritario</h3>
+              <p>Hacemos visibles las brechas que frenan el desempeño y acordamos dónde intervenir primero.</p>
+              <div class="step-dims-mobile" aria-label="Dimensiones clave abordadas">
+                <span class="dim-chip"><span class="dot"></span>Procesos</span>
+                <span class="dim-chip"><span class="dot"></span>Tecnología</span>
+                <span class="dim-chip"><span class="dot"></span>Datos</span>
+              </div>
+            </article>
+
+            <article class="step" data-step data-dims="0,4,5">
+              <span class="step-num">Paso 03</span>
+              <h3>Diseñamos la solución</h3>
+              <p>Definimos iniciativas realistas, responsables, entregables e indicadores según el contexto.</p>
+              <div class="step-dims-mobile" aria-label="Dimensiones clave abordadas">
+                <span class="dim-chip"><span class="dot"></span>Estrategia</span>
+                <span class="dim-chip"><span class="dot"></span>Talento</span>
+                <span class="dim-chip"><span class="dot"></span>Liderazgo</span>
+              </div>
+            </article>
+
+            <article class="step" data-step data-dims="1,6">
+              <span class="step-num">Paso 04</span>
+              <h3>Acompañamos la implementación</h3>
+              <p>Trabajamos con los equipos para ejecutar, medir y sostener la nueva forma de operar.</p>
+              <div class="step-dims-mobile" aria-label="Dimensiones clave abordadas">
+                <span class="dim-chip"><span class="dot"></span>Cultura</span>
+                <span class="dim-chip"><span class="dot"></span>Experiencia del cliente</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUÉ Nexus (MÓDULO COMPARATIVO TRANSPARENTE) -->
+    <section id="por-que-nexus">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Por qué Nexus</span>
+          <h2>La diferencia entre un informe y un cambio que se sostiene</h2>
+        </div>
+
+        <!-- Toggle comparativo para móvil (reduce scroll vertical) -->
+        <div class="vs-mobile-switch" aria-label="Comparativa de consultoría">
+          <button type="button" class="vs-toggle-btn is-active" data-vs-target="good">Con Nexus</button>
+          <button type="button" class="vs-toggle-btn" data-vs-target="bad">Lo habitual</button>
+        </div>
+
+        <div class="vs-grid" data-active-vs="good" data-reveal-group>
+          <div class="vs-card bad" data-reveal>
+            <h3>Cómo suele pasar</h3>
+            <ul>
+              <li>Un diagnóstico genérico que podría ser de cualquier empresa.</li>
+              <li>Una presentación con recomendaciones que nadie llega a ejecutar.</li>
+              <li>Se elige el sistema primero y el equipo se adapta a la herramienta.</li>
+              <li>El consultor se va justo cuando empieza la parte difícil.</li>
+              <li>Nadie vuelve a medir si algo cambió de verdad.</li>
+            </ul>
+          </div>
+
+          <div class="vs-card good" data-reveal>
+            <h3>Cómo trabaja Nexus</h3>
+            <ul>
+              <li>Diagnósticos con información cuantitativa y cualitativa, según cada desafío.</li>
+              <li>Iniciativas priorizadas por impacto y por lo que la organización puede sostener.</li>
+              <li>Primero se ordena el proceso; la tecnología viene después.</li>
+              <li>Acompañamos la adopción en todos los niveles, del directorio al puesto operativo.</li>
+              <li>Volvemos a medir: si no se puede mostrar, no está terminado.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUESTROS SERVICIOS (TABS INTERACTIVOS DE LAS 4 UNIDADES) -->
+    <section id="que-hacemos">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Nuestros servicios</span>
+          <h2>Activamos la solución que cada transformación necesita</h2>
+          <p class="lead">Integramos consultoría organizacional, procesos, investigación y talento estratégico bajo una misma lectura del negocio.</p>
+        </div>
+
+        <div data-reveal>
+          <div role="tablist" aria-label="Unidades de negocio" class="tabs-list">
+            <button role="tab" id="tab-business-consulting" aria-controls="panel-business-consulting" aria-selected="true">Business Consulting</button>
+            <button role="tab" id="tab-smart-process" aria-controls="panel-smart-process" aria-selected="false" tabindex="-1">Smart Process</button>
+            <button role="tab" id="tab-research" aria-controls="panel-research" aria-selected="false" tabindex="-1">Research &amp; Insights</button>
+            <button role="tab" id="tab-talent" aria-controls="panel-talent" aria-selected="false" tabindex="-1">Talent &amp; Executive Solutions</button>
+          </div>
+
+          <!-- Tab Panel: Business Consulting -->
+          <div role="tabpanel" id="panel-business-consulting" aria-labelledby="tab-business-consulting" tabindex="0">
+            <div class="tab-body">
+              <div class="tab-lead">
+                <span class="svc-icon">
+                  <svg viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+                </span>
+                <span class="catch">Que la estrategia no se quede en el papel.</span>
+                <h3>La estrategia no funciona si la cultura no acompaña</h3>
+                <p style="color:var(--ink-soft);">Acompañamos procesos de transformación y reorganización: entendemos el contexto, priorizamos por impacto y trabajamos con los equipos hasta que la nueva forma de operar se sostiene.</p>
+                <a class="btn btn-ghost btn-sm" style="margin-top:22px;" onclick="goTo('business-consulting')">Ver la unidad completa &rarr;</a>
+              </div>
+              <div class="tab-items">
+                <div class="tab-item"><strong>Diseño estratégico y operativo</strong><span>El plan y el plan de acción que lo hace ejecutable.</span></div>
+                <div class="tab-item"><strong>Arquitectura organizacional</strong><span>Estructura, roles y niveles para sostener el crecimiento.</span></div>
+                <div class="tab-item"><strong>Gestión de la cultura</strong><span>Medición numérica de cultura y clima.</span></div>
+                <div class="tab-item"><strong>People's Office as a service</strong><span>Visión de talento sin sumar un área fija de RR.HH.</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Panel: Smart Process -->
+          <div role="tabpanel" id="panel-smart-process" aria-labelledby="tab-smart-process" tabindex="0" hidden>
+            <div class="tab-body">
+              <div class="tab-lead">
+                <span class="svc-icon">
+                  <svg viewBox="0 0 24 24"><path d="M4 17l6-6 4 4 6-8"/></svg>
+                </span>
+                <span class="catch">Menos fricción, más eficiencia.</span>
+                <h3>Optimizá tu negocio, desde los procesos</h3>
+                <p style="color:var(--ink-soft);">Ordenamos y digitalizamos la operación antes de sumar tecnología. Relevamos cómo trabaja cada equipo, rediseñamos el proceso y recién después implementamos el sistema — para que la herramienta se use de verdad.</p>
+                <a class="btn btn-ghost btn-sm" style="margin-top:22px;" onclick="goTo('smart-process')">Ver la unidad completa &rarr;</a>
+              </div>
+              <div class="tab-items">
+                <div class="tab-item"><strong>Relevamiento y mapeo</strong><span>Cómo trabaja realmente cada equipo, antes de elegir herramienta.</span></div>
+                <div class="tab-item"><strong>Rediseño operativo</strong><span>Detectamos cuellos de botella y repensamos el proceso.</span></div>
+                <div class="tab-item"><strong>Automatización (RPA e IA)</strong><span>Donde genera ahorro real de tiempo o menos error.</span></div>
+                <div class="tab-item"><strong>Implementación de herramientas de gestión</strong><span>CRM, ERP, ATS, IA y otras soluciones, configuradas según tu operación.</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Panel: Research & Insights -->
+          <div role="tabpanel" id="panel-research" aria-labelledby="tab-research" tabindex="0" hidden>
+            <div class="tab-body">
+              <div class="tab-lead">
+                <span class="svc-icon">
+                  <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg>
+                </span>
+                <span class="catch">Decidí con datos, no con intuición.</span>
+                <h3>Sabé dónde estás parado, antes de invertir</h3>
+                <p style="color:var(--ink-soft);">Investigación y diagnóstico basado en datos para el mercado paraguayo y regional. Con UPCOME medimos la madurez digital de tu empresa en estrategia, cultura y tecnología, y entregamos brechas concretas priorizadas por impacto y viabilidad.</p>
+                <a class="btn btn-ghost btn-sm" style="margin-top:22px;" onclick="goTo('research')">Ver la unidad completa &rarr;</a>
+              </div>
+              <div class="tab-items">
+                <div class="tab-item"><strong>UPCOME</strong><span>Diagnóstico del potencial digital en tres ejes.</span></div>
+                <div class="tab-item"><strong>Revolución ZY</strong><span>Estudio propio sobre atributos laborales por generación.</span></div>
+                <div class="tab-item"><strong>Estudios de mercado</strong><span>Investigación cuantitativa y cualitativa a medida.</span></div>
+                <div class="tab-item"><strong>Inteligencia comercial</strong><span>Mapeo de mercado, competencia y oportunidades.</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Panel: Talent & Executive Solutions -->
+          <div role="tabpanel" id="panel-talent" aria-labelledby="tab-talent" tabindex="0" hidden>
+            <div class="tab-body">
+              <div class="tab-lead">
+                <span class="svc-icon">
+                  <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+                </span>
+                <span class="catch">El líder correcto, en el momento correcto.</span>
+                <h3>Encontramos líderes. No cubrimos vacantes.</h3>
+                <p style="color:var(--ink-soft);">Executive Search y Reverse Hunting confidencial para posiciones gerenciales, directivas y tecnológicas. Antes de salir a buscar, entendemos hacia dónde va la empresa — para traer al candidato que encaja con lo que quiere ser, no solo con el papel del cargo.</p>
+                <a class="btn btn-ghost btn-sm" style="margin-top:22px;" onclick="goTo('talent')">Ver la unidad completa &rarr;</a>
+              </div>
+              <div class="tab-items">
+                <div class="tab-item"><strong>Executive Search confidencial</strong><span>Sin exposición pública de la vacante.</span></div>
+                <div class="tab-item"><strong>Hunting directo</strong><span>Candidatos que hoy no están buscando empleo.</span></div>
+                <div class="tab-item"><strong>Evaluación conductual (PDA)</strong><span>Entrevistas en profundidad e informes ejecutivos.</span></div>
+                <div class="tab-item"><strong>Reverse Hunting</strong><span>Para ejecutivos que exploran nuevas oportunidades.</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DARK CTA -->
+    <section class="dark-cta">
+      <div class="container">
+        <span class="eyebrow" style="color:var(--teal);" data-reveal>El siguiente paso</span>
+        <h2 data-reveal>Transformar empieza por entender qué necesita cambiar</h2>
+        <p data-reveal>En una primera conversación identificamos el desafío, la mayor palanca de impacto y el mejor punto de partida.</p>
+        <div data-reveal><a class="btn btn-light" onclick="goTo('contacto')">Conversemos sobre tu empresa</a></div>
+      </div>
+    </section>
+
+    <!-- ALIANZAS ESTRATÉGICAS Y GREMIOS -->
+    <section class="tight">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Crecemos en alianza</span>
+          <h2>Nuestros <span class="hl">aliados estratégicos</span></h2>
+          <p class="lead">Ampliamos capacidades junto a especialistas de confianza, y participamos activamente en las cámaras que representan a nuestros sectores.</p>
+        </div>
+
+        <div class="mq" data-marquee data-mq-src="aliados">
+          <div class="mq-track">
+            <ul class="mq-row">
+              <li><a href="https://www.itti.digital/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/ITTI.png" alt="ITTI" loading="eager" decoding="async"></a></li>
+              <li><a href="https://willdom.com/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/Willdom.png" alt="Willdom" loading="eager" decoding="async"></a></li>
+              <li><a href="https://nodica.io/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/Nodica.png" alt="Nodica" loading="eager" decoding="async"></a></li>
+              <li><a href="https://www.proactive.consulting/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/ProActive_Information_Security.png" alt="ProActive Information Security" loading="eager" decoding="async"></a></li>
+              <li><a href="https://factorrh.com.py/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/Factor_RH.png" alt="Factor RH" loading="eager" decoding="async"></a></li>
+              <li><a href="https://www.pdainternational.net/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/PDA.png" alt="PDA" loading="eager" decoding="async"></a></li>
+              <li><a href="https://abyagroup.org/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/Abya.png" alt="Abya" loading="eager" decoding="async"></a></li>
+              <li><a href="https://chussanzandco.com/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/Chus_Sanz.png" alt="Chus Sanz &amp; Co." loading="eager" decoding="async"></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <button class="mq-pause" type="button" aria-pressed="false">Pausar movimiento</button>
+
+        <p style="text-align:center; margin:34px 0 16px; font-family:'Poppins',sans-serif; font-weight:700; font-size:.76rem; letter-spacing:1.2px; color:var(--ink-soft);">SOMOS MIEMBROS DE</p>
+        
+        <div class="mq" data-marquee data-mq-src="gremios">
+          <div class="mq-track fast">
+            <ul class="mq-row">
+              <li><a href="https://www.cisoft.org.py/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/CISOFT.png" alt="CISOFT" loading="eager" decoding="async"></a></li>
+              <li><a href="https://www.fintech.org.py/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/Fintech_Paraguay.png" alt="Cámara Paraguaya de Fintech" loading="eager" decoding="async"></a></li>
+              <li><a href="https://capace.org.py/" target="_blank" rel="noopener noreferrer"><img src="assets/brand/CAPACE.png" alt="CAPACE" loading="eager" decoding="async"></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <button class="mq-pause" type="button" aria-pressed="false">Pausar movimiento</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       PAGE 2: SMART PROCESS
+       ======================================================================== -->
+  <div class="page" id="page-smart-process">
+    <section class="unit-hero">
+      <div class="orb-u"></div>
+      <div class="container">
+        <div class="breadcrumb"><a onclick="goTo('home')">Inicio</a> / Smart Process</div>
+        <button class="back-home" onclick="goTo('home')">&larr; Volver al inicio</button>
+        <span class="unit-badge">Smart Process</span>
+        <h1>Optimizá tu negocio, desde los procesos</h1>
+        <p class="lead measure">Diseñamos, automatizamos y digitalizamos procesos clave, integrando tecnología, inteligencia artificial y gestión del cambio para mejorar la eficiencia operativa de tu empresa en Paraguay.</p>
+        <div class="hero-actions"><a class="btn btn-primary" onclick="goTo('contacto')">Solicitá un diagnóstico de procesos</a></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">¿Qué incluyen nuestros servicios?</span>
+          <h2>Adopción tecnológica humanizada con sistemas que se adaptan a tu negocio</h2>
+          <p class="lead">Implementamos herramientas de gestión —CRM, ERP, ATS, inteligencia artificial y otras soluciones— en base a cómo trabaja tu equipo, no al revés.</p>
+        </div>
+
+        <div class="card-grid" data-reveal-group>
+          <div class="card" data-reveal><h4>Relevamiento y mapeo de procesos</h4><p>Identificamos cómo trabaja realmente cada equipo, antes de elegir o configurar ninguna herramienta.</p></div>
+          <div class="card" data-reveal><h4>Rediseño y optimización operativa</h4><p>Detectamos cuellos de botella e ineficiencias, y repensamos el proceso antes de digitalizarlo.</p></div>
+          <div class="card" data-reveal><h4>Digitalización de procesos</h4><p>Llevamos a plataforma los procesos ya rediseñados, con criterios y objetivos definidos junto al negocio.</p></div>
+          <div class="card" data-reveal><h4>Automatización (RPA e IA)</h4><p>Aplicamos automatización robótica e inteligencia artificial donde generan ahorro real de tiempo o reducción de error.</p></div>
+          <div class="card" data-reveal><h4>Implementación de herramientas de gestión</h4><p>Seleccionamos, configuramos e integramos CRM, ERP, ATS, soluciones de IA y otras plataformas según cómo opera tu empresa.</p></div>
+          <div class="card" data-reveal><h4>Políticas, procedimientos y manuales</h4><p>Documentamos procesos y criterios de forma clara, para que la ejecución sea estándar y no dependa de una sola persona.</p></div>
+          <div class="card" data-reveal><h4>IA aplicada al negocio</h4><p>Identificamos qué procesos tienen mayor potencial de ahorro de tiempo o reducción de error antes de introducir la tecnología.</p></div>
+          <div class="card" data-reveal><h4>AI for Business In-Company</h4><p>Programa de capacitación e implementación de IA aplicada, a medida de cada equipo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">Cómo trabajamos</span>
+          <h2>La diferencia entre implementar un sistema y que el equipo lo use</h2>
+          <p class="lead">Muchas organizaciones eligen un CRM, ERP u otro sistema sin relevar antes sus procesos reales. El resultado casi siempre es el mismo: baja adopción, doble carga de trabajo y la misma desorganización de siempre — ahora dentro de una herramienta cara.</p>
+        </div>
+
+        <div class="vs-grid" data-reveal-group>
+          <div class="vs-card bad" data-reveal>
+            <h3>Cómo se implementa habitualmente</h3>
+            <ul>
+              <li>Se elige o configura el sistema primero, sin relevar los procesos reales.</li>
+              <li>El equipo se adapta a la herramienta, no al revés.</li>
+              <li>Las excepciones de cada área quedan afuera del diseño.</li>
+              <li>La adopción depende de la buena voluntad de cada persona.</li>
+            </ul>
+          </div>
+
+          <div class="vs-card good" data-reveal>
+            <h3>Cómo lo implementa Nexus</h3>
+            <ul>
+              <li>Diagnosticamos cómo trabaja cada equipo antes de elegir o configurar nada.</li>
+              <li>Definimos procedimientos, parámetros y objetivos junto al negocio.</li>
+              <li>Implementamos o configuramos el sistema en base a esa realidad.</li>
+              <li>Acompañamos la adopción en todos los niveles.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="margin-top:48px;">
+          <ol class="tl" data-reveal-group>
+            <span class="tl-progress" aria-hidden="true"></span>
+            <li class="tl-item" data-reveal><h4>01 &middot; Diagnóstico</h4><p>Relevamiento de procesos, entrevistas por área e identificación de brechas y cuellos de botella.</p></li>
+            <li class="tl-item" data-reveal><h4>02 &middot; Diseño</h4><p>Rediseño de procesos y definición de criterios y objetivos, antes de elegir el sistema.</p></li>
+            <li class="tl-item" data-reveal><h4>03 &middot; Implementación</h4><p>Selección, parametrización y configuración del sistema, según lo definido en las fases anteriores.</p></li>
+            <li class="tl-item" data-reveal><h4>04 &middot; Adopción</h4><p>Capacitación, gestión del cambio y acompañamiento a todos los niveles — del directorio al puesto operativo.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">¿Para quién es?</span>
+          <h2>¿Quiénes necesitan Smart Process?</h2>
+        </div>
+        <ul class="audience" data-reveal-group>
+          <li data-reveal>Procesos poco claros, redundantes o desactualizados que generan cuellos de botella y retrasos.</li>
+          <li data-reveal>Costos operativos elevados por tareas manuales o ineficientes.</li>
+          <li data-reveal>Falta de herramientas para monitorear procesos en tiempo real y tomar decisiones informadas.</li>
+          <li data-reveal>Crecimiento rápido que desborda los procesos existentes.</li>
+          <li data-reveal>Dificultad para estandarizar operaciones por falta de procedimientos claros.</li>
+          <li data-reveal>Problemas de comunicación y colaboración entre áreas.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ Smart Process -->
+    <section class="alt">
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Lo que más nos preguntan sobre Smart Process</h2>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="sp-acc-0"><span>¿Por qué falla tantas veces la implementación de una herramienta de gestión?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="sp-acc-0" role="region"><div class="acc-body"><p>Porque se elige o configura el sistema antes de entender cómo trabaja realmente cada equipo. El resultado típico es baja adopción, doble carga de trabajo y la misma desorganización de siempre, ahora dentro de una herramienta cara. Por eso empezamos siempre por el diagnóstico de procesos, no por el sistema.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="sp-acc-1"><span>¿Necesito tener ya un CRM, ERP o ATS implementado?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="sp-acc-1" role="region"><div class="acc-body"><p>No. El primer paso es un diagnóstico de procesos, con o sin sistemas implementados. A partir de ahí definimos si conviene incorporar una herramienta, ajustar la actual o rediseñar primero el proceso antes de digitalizarlo.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="sp-acc-2"><span>¿Cómo aplican inteligencia artificial y automatización (RPA) a los procesos de negocio?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="sp-acc-2" role="region"><div class="acc-body"><p>A través del programa "AI for Business In-Company" y de proyectos puntuales de automatización (RPA), identificando primero qué procesos tienen mayor potencial de ahorro de tiempo o reducción de error antes de introducir la tecnología.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="sp-acc-3"><span>¿Cuál es el primer paso para saber si mi empresa necesita Smart Process?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="sp-acc-3" role="region"><div class="acc-body"><p>Una reunión breve para entender cómo trabaja hoy tu equipo. A partir de ahí definimos si el camino es un diagnóstico más profundo (relevamiento de procesos y entrevistas por área) o directamente un plan de acción.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="sp-acc-4"><span>¿Qué obtengo al final de un proyecto de Smart Process?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="sp-acc-4" role="region"><div class="acc-body"><p>Un sistema implementado en base a cómo trabaja tu empresa (no al revés), procesos ordenados y documentados con o sin tecnología de por medio, información clara y disponible para cada área, y adopción real — no una herramienta que se abandona a los tres meses.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <h2>¿Tus procesos no escalan al ritmo de tu negocio?</h2>
+          <p>Solicitá un diagnóstico de procesos y ordenemos juntos el siguiente paso.</p>
+          <a class="btn btn-light" onclick="goTo('contacto')">Solicitá un diagnóstico de procesos</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       PAGE 3: TALENT & EXECUTIVE SOLUTIONS
+       ======================================================================== -->
+  <div class="page" id="page-talent">
+    <section class="unit-hero">
+      <div class="orb-u"></div>
+      <div class="container">
+        <div class="breadcrumb"><a onclick="goTo('home')">Inicio</a> / Talent &amp; Executive Search</div>
+        <button class="back-home" onclick="goTo('home')">&larr; Volver al inicio</button>
+        <span class="unit-badge">Talent &amp; Executive Solutions</span>
+        <h1>Encontramos líderes. No cubrimos vacantes.</h1>
+        <p class="lead measure">Líderes que suman. Decisiones que transforman. En Nexus Consulting hacemos Executive Search y Reverse Hunting en Paraguay, acompañando procesos de búsqueda ejecutiva confidencial para posiciones gerenciales, directivas y tecnológicas. No buscamos solo experiencia: buscamos impacto.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" onclick="goTo('contacto')">Contanos tu próxima búsqueda ejecutiva</a>
+          <a class="btn btn-ghost" onclick="goTo('jobs')">Ver bolsa de trabajo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt tight">
+      <div class="container">
+        <div class="kpi-grid" data-reveal-group>
+          <div class="kpi" data-reveal>
+            <span class="kpi-num">+<span data-count="100">100</span></span>
+            <span class="kpi-label">búsquedas ejecutivas realizadas</span>
+          </div>
+          <div class="kpi" data-reveal>
+            <span class="kpi-num">+<span data-count="250">250</span></span>
+            <span class="kpi-label">perfiles gerenciales y ejecutivos en base de datos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">¿Qué abarca esta unidad?</span>
+          <h2>Búsqueda ejecutiva, hunting y selección de talento estratégico</h2>
+          <p class="lead">Combinamos expertise en comportamiento organizacional y conocimiento del mercado para identificar los perfiles correctos, no solo los que están disponibles — desde mandos medios hasta posiciones C-level y talento tecnológico clave.</p>
+        </div>
+
+        <div class="card-grid" data-reveal-group>
+          <div class="card" data-reveal><h4>Executive Search confidencial</h4><p>Búsqueda y atracción de perfiles ejecutivos de alto nivel sin exposición pública de la vacante.</p></div>
+          <div class="card" data-reveal><h4>Hunting directo</h4><p>Identificación y contacto activo de candidatos específicos que no están buscando empleo.</p></div>
+          <div class="card" data-reveal><h4>Selección de mandos medios y gerencias</h4><p>Procesos estructurados de atracción, evaluación y presentación de candidatos.</p></div>
+          <div class="card" data-reveal><h4>Diseño de perfiles de cargo</h4><p>Elaboración de descripciones claras, realistas y alineadas al contexto organizacional.</p></div>
+          <div class="card" data-reveal><h4>Evaluación de candidatos</h4><p>Entrevistas en profundidad, evaluación conductual (PDA) e informes ejecutivos.</p></div>
+          <div class="card" data-reveal><h4>Talento tecnológico y digital</h4><p>Búsqueda especializada en perfiles de IA, datos, transformación digital, desarrollo y tecnología.</p></div>
+          <div class="card" data-reveal><h4>Reverse Hunting</h4><p>Servicio para ejecutivos que desean explorar nuevas oportunidades de forma confidencial y estratégica.</p></div>
+          <div class="card" data-reveal><h4>Mapeo de mercado</h4><p>Análisis del ecosistema de talento disponible para una posición o sector específico.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">¿Para quién es?</span>
+          <h2>Perfil del cliente ideal</h2>
+        </div>
+        <ul class="audience" data-reveal-group>
+          <li data-reveal>Empresas que necesitan incorporar talento clave y no quieren depender de publicaciones abiertas.</li>
+          <li data-reveal>Organizaciones que buscan perfiles ejecutivos, gerenciales o especializados difíciles de encontrar en el mercado.</li>
+          <li data-reveal>Compañías que requieren confidencialidad total en su proceso de búsqueda.</li>
+          <li data-reveal>Empresas en crecimiento o transformación que necesitan perfiles de liderazgo o tecnológicos clave.</li>
+          <li data-reveal>Organizaciones del sector financiero, tecnológico, industrial o de servicios con posiciones estratégicas a cubrir.</li>
+          <li data-reveal>Señales de alerta frecuentes: rotación en posiciones clave, expansión de operaciones, cambio de liderazgo, digitalización acelerada.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Entrada Bolsa de Trabajo -->
+    <section>
+      <div class="container">
+        <div class="jobs-entry" data-reveal>
+          <div>
+            <span class="eyebrow" style="margin-bottom:8px;">Oportunidades profesionales</span>
+            <h3>Bolsa de trabajo Nexus Consulting</h3>
+            <p>Consultá las búsquedas activas gestionadas por Nexus o dejá tu perfil para futuras oportunidades en nuestra plataforma de empleos.</p>
+          </div>
+          <a class="btn btn-ghost btn-sm" onclick="goTo('jobs')">Ver oportunidades &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs Talent -->
+    <section class="alt">
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Lo que más nos preguntan sobre Talent &amp; Executive Search</h2>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="tl-acc-0"><span>¿En qué se diferencia Nexus de otras búsquedas ejecutivas?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="tl-acc-0" role="region"><div class="acc-body"><p>La diferencia está en el relevamiento inicial: antes de salir a buscar candidatos, Nexus invierte tiempo en entender a fondo la empresa, el puesto y hacia dónde quiere crecer esa organización, no solo el listado de requisitos del cargo. Eso permite traer un candidato que encaja con lo que la empresa busca ser, no solo con lo que dice el puesto en el papel.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="tl-acc-1"><span>¿Qué señales indican que conviene iniciar una búsqueda ejecutiva?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="tl-acc-1" role="region"><div class="acc-body"><p>En nuestra experiencia, los disparadores más frecuentes son rotación en posiciones clave, expansión de operaciones, cambio de liderazgo o un proceso de digitalización acelerada que exige perfiles nuevos que hoy no están en la organización.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="tl-acc-2"><span>¿Qué es el Reverse Hunting y en qué se diferencia de una búsqueda tradicional?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="tl-acc-2" role="region"><div class="acc-body"><p>En una búsqueda tradicional se parte de la empresa y se sale a buscar candidatos. En el Reverse Hunting se parte del ejecutivo: Nexus identifica talento de alto nivel y lo conecta de forma estratégica y confidencial con organizaciones donde puede generar más impacto, sin que la empresa haya abierto necesariamente una búsqueda formal.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="tl-acc-3"><span>¿Trabajan con búsquedas confidenciales?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="tl-acc-3" role="region"><div class="acc-body"><p>Sí, muchas búsquedas de alta gerencia y C-level se manejan de forma confidencial, tanto para la empresa como para el candidato, hasta que ambas partes confirman el interés.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="tl-acc-4"><span>¿Qué pasa si el candidato incorporado no funciona en el puesto?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="tl-acc-4" role="region"><div class="acc-body"><p>Si la persona renuncia o es desvinculada dentro del período de garantía (2 meses para cargos operativos o mandos medios, 3 meses para cargos gerenciales y directivos), Nexus realiza un nuevo proceso de búsqueda y presentación de candidatos sin costo adicional.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="tl-acc-5"><span>¿Cuánto tiempo toma un proceso de búsqueda ejecutiva y cuántos candidatos presentan?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="tl-acc-5" role="region"><div class="acc-body"><p>El plazo comprometido es de 30 días para cargos gerenciales y 20 días para cargos de nivel intermedio o inferior, contados desde el pago inicial. Presentamos hasta 3 candidatos finalistas por vacante, con un informe individual de cada uno y un informe general del proceso.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="tl-acc-6"><span>¿Qué tipo de posiciones y sectores cubre Nexus?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="tl-acc-6" role="region"><div class="acc-body"><p>Desde mandos medios y gerencias hasta búsquedas de C-level y talento tecnológico, en sectores como banca y financieras, industria, cooperativas, tecnología y servicios — incluyendo búsquedas internacionales cuando el perfil lo requiere.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <h2>¿Estás buscando un líder o construyendo el futuro de tu empresa?</h2>
+          <p>Un mal ingreso cuesta caro. Una buena decisión transforma la organización.</p>
+          <a class="btn btn-light" onclick="goTo('contacto')">Contanos tu próxima búsqueda ejecutiva</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       PAGE 4: BUSINESS CONSULTING
+       ======================================================================== -->
+  <div class="page" id="page-business-consulting">
+    <section class="unit-hero">
+      <div class="orb-u"></div>
+      <div class="container">
+        <div class="breadcrumb"><a onclick="goTo('home')">Inicio</a> / Business Consulting</div>
+        <button class="back-home" onclick="goTo('home')">&larr; Volver al inicio</button>
+        <span class="unit-badge">Business Consulting</span>
+        <h1>La estrategia no funciona si la cultura no acompaña</h1>
+        <p class="lead measure">Acompañamos procesos de transformación y reorganización integrando estrategia, cultura, estructura y procesos. Empezamos por entender el contexto, priorizamos los desafíos y trabajamos junto a los equipos durante la implementación.</p>
+        <div class="hero-actions"><a class="btn btn-primary" onclick="goTo('contacto')">Conversemos sobre tu organización</a></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">¿Qué hacemos?</span>
+          <h2>Transformá desde la estrategia</h2>
+          <p class="lead">Diseñamos e implementamos soluciones que impulsan la evolución de las organizaciones, partiendo de una estrategia clara y accionable. Acompañamos procesos de transformación, optimizando la estructura, las capacidades, la cultura organizacional y la gestión del cambio para lograr resultados medibles y sostenibles.</p>
+        </div>
+
+        <div class="card-grid" data-reveal-group>
+          <div class="card" data-reveal><h4>Diseño estratégico y operativo</h4><p>Definimos el plan estratégico y el plan de acción que lo hace ejecutable en el día a día.</p></div>
+          <div class="card" data-reveal><h4>Arquitectura organizacional</h4><p>Diseñamos la estructura, roles y niveles que la empresa necesita para sostener su crecimiento.</p></div>
+          <div class="card" data-reveal><h4>Gestión de la cultura</h4><p>Evaluamos la cultura organizacional con herramientas numéricas para alinear a los equipos con los valores y objetivos del negocio.</p></div>
+          <div class="card" data-reveal><h4>Facilitación de talleres ejecutivos</h4><p>Espacios de trabajo con el equipo directivo para alinear visión, prioridades y decisiones críticas.</p></div>
+          <div class="card" data-reveal><h4>Coaching y acompañamiento directivo</h4><p>Acompañamos a líderes y equipos gerenciales en su desarrollo, con foco en resultados de negocio.</p></div>
+          <div class="card" data-reveal><h4>Programas in-company de liderazgo</h4><p>Formación a medida para desarrollar las capacidades de liderazgo que la organización necesita.</p></div>
+          <div class="card" data-reveal><h4>Mentorías para ejecutivos</h4><p>Acompañamiento uno a uno para ejecutivos en momentos clave de su carrera o de la organización.</p></div>
+          <div class="card" data-reveal><h4>People's Office — as a service</h4><p>Visión estratégica de talento y cultura para empresas que no cuentan (o no quieren sumar) un área de RR.HH. permanente.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">¿Para quién es?</span>
+          <h2>¿Quiénes necesitan Business Consulting?</h2>
+        </div>
+        <ul class="audience" data-reveal-group>
+          <li data-reveal>Empresas cuyo crecimiento superó a su estructura, sus procesos o su forma de coordinar.</li>
+          <li data-reveal>Organizaciones con una estrategia definida que todavía no logra convertirse en ejecución.</li>
+          <li data-reveal>Equipos que necesitan alinear cultura, liderazgo y comportamientos con los objetivos del negocio.</li>
+          <li data-reveal>Empresas en procesos de reorganización, profesionalización o transformación digital.</li>
+          <li data-reveal>Organizaciones que necesitan redefinir estructura, roles, responsabilidades y modelo operativo.</li>
+          <li data-reveal>Empresas que buscan implementar cambios sin perder continuidad ni compromiso de sus equipos.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQs Business Consulting -->
+    <section class="alt">
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Lo que más nos preguntan sobre Business Consulting</h2>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="bc-acc-0"><span>¿Cómo comienza un proceso de consultoría con Nexus?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="bc-acc-0" role="region"><div class="acc-body"><p>Comienza con una conversación de relevamiento y una etapa de diagnóstico. Escuchamos a líderes y equipos, analizamos información y observamos cómo se conectan estrategia, cultura, estructura y procesos. Con esa base acordamos prioridades, alcance, entregables e indicadores antes de avanzar a la implementación.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="bc-acc-1"><span>¿Qué es "People's Office as a service"?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="bc-acc-1" role="region"><div class="acc-body"><p>Es una modalidad para empresas que necesitan una visión estratégica de talento y cultura, pero no quieren (o no pueden aún) sumar una posición fija de RR.HH.: Nexus cubre ese rol de forma flexible, con el nivel de involucramiento que la empresa necesite.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="bc-acc-2"><span>¿Trabajan con PyMEs y empresas familiares, o solo con grandes corporaciones?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="bc-acc-2" role="region"><div class="acc-body"><p>Trabajamos con ambos: desde bancos y aseguradoras hasta empresas familiares e industriales en proceso de profesionalización.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="bc-acc-3"><span>¿Cuánto dura un proceso de transformación con Nexus?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="bc-acc-3" role="region"><div class="acc-body"><p>La duración depende del desafío y del alcance acordado. Diseñamos cada proyecto por etapas, con entregables y decisiones claras, para que la organización pueda avanzar sin perder continuidad operativa.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <h2>¿Tu empresa está creciendo, pero la organización no acompaña?</h2>
+          <p>Hablemos de cómo alinear estrategia, cultura y procesos.</p>
+          <a class="btn btn-light" onclick="goTo('contacto')">Conversemos sobre tu organización</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       PAGE 5: RESEARCH & INSIGHTS
+       ======================================================================== -->
+  <div class="page" id="page-research">
+    <section class="unit-hero">
+      <div class="orb-u"></div>
+      <div class="container">
+        <div class="breadcrumb"><a onclick="goTo('home')">Inicio</a> / Research &amp; Insights</div>
+        <button class="back-home" onclick="goTo('home')">&larr; Volver al inicio</button>
+        <span class="unit-badge">Research &amp; Insights</span>
+        <h1>Sabé dónde estás parado, antes de invertir en tecnología</h1>
+        <p class="lead measure">Investigamos y diagnosticamos con datos para que las organizaciones tomen mejores decisiones antes de invertir o transformar. UPCOME mide la madurez digital en estrategia, cultura y tecnología.</p>
+        <div class="hero-actions"><a class="btn btn-primary" onclick="goTo('contacto')">Solicitá tu diagnóstico UPCOME</a></div>
+      </div>
+    </section>
+
+    <section class="alt tight">
+      <div class="container">
+        <div class="kpi-grid" data-reveal-group>
+          <div class="kpi" data-reveal>
+            <span class="kpi-num">+<span data-count="10">10</span></span>
+            <span class="kpi-label">diagnósticos UPCOME realizados</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">¿Qué abarca esta unidad?</span>
+          <h2>Investigación, análisis de mercado e inteligencia de negocio</h2>
+          <p class="lead">Producimos estudios, diagnósticos, informes de tendencias y productos de inteligencia adaptados a la realidad del mercado paraguayo y regional.</p>
+        </div>
+
+        <div class="card-grid" data-reveal-group>
+          <div class="card" data-reveal><h4>UPCOME — diagnóstico del potencial digital</h4><p>Mide la madurez digital de tu empresa en tres ejes (estrategia, cultura, tecnología) antes de invertir en tecnología.</p></div>
+          <div class="card" data-reveal><h4>Revolución ZY</h4><p>Estudio propio de Nexus sobre los atributos laborales que más valoran los profesionales hoy, por generación.</p></div>
+          <div class="card" data-reveal><h4>Diagnósticos empresariales</h4><p>Análisis integral del estado actual de una organización: estrategia, procesos, cultura, talento y tecnología.</p></div>
+          <div class="card" data-reveal><h4>Análisis de tendencias</h4><p>Reportes sobre evolución digital, economía, talento, tecnología e innovación sectorial.</p></div>
+          <div class="card" data-reveal><h4>Estudios de mercado</h4><p>Investigaciones cuantitativas y cualitativas sobre sectores, consumidores, competencia o tendencias.</p></div>
+          <div class="card" data-reveal><h4>Análisis sectoriales</h4><p>Estudios específicos por industria para apoyar decisiones de expansión, inversión o posicionamiento.</p></div>
+          <div class="card" data-reveal><h4>Investigaciones sobre talento y cultura</h4><p>Análisis de brechas de capacidades, generaciones en el trabajo y cultura organizacional.</p></div>
+          <div class="card" data-reveal><h4>Inteligencia comercial</h4><p>Mapeo de mercado, análisis de competencia y oportunidades para decisiones de negocio.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">¿Cómo funciona un diagnóstico UPCOME?</span>
+          <h2>4 etapas, de la personalización a los resultados</h2>
+        </div>
+
+        <ol class="tl" data-reveal-group>
+          <span class="tl-progress" aria-hidden="true"></span>
+          <li class="tl-item" data-reveal><h4>1. Personalización</h4><p>Adaptamos el cuestionario según el contexto y las necesidades de la empresa.</p></li>
+          <li class="tl-item" data-reveal><h4>2. Comunicación interna</h4><p>Diseñamos una campaña interna para asegurar participación y comprensión del proceso.</p></li>
+          <li class="tl-item" data-reveal><h4>3. Toma operativa</h4><p>Encuesta 100% online, anónima y breve, en tres ejes: Estrategia, Cultura y Tecnología.</p></li>
+          <li class="tl-item" data-reveal><h4>4. Presentación de resultados</h4><p>Informe visual y dinámico en PowerBI con segmentaciones clave, más un informe técnico con hallazgos y recomendaciones.</p></li>
+        </ol>
+
+        <aside class="upcome-framework" data-reveal aria-labelledby="upcome-framework-title">
+          <div>
+            <h3 id="upcome-framework-title">Una lectura integral de la madurez digital</h3>
+            <p>UPCOME analiza la relación entre los tres ejes que hacen sostenible una transformación. El diagnóstico se realiza mediante un cuestionario adaptado al contexto de cada organización.</p>
+          </div>
+          <ul class="upcome-axes" aria-label="Ejes analizados por UPCOME">
+            <li><strong>Estrategia</strong><span>Prioridades y dirección para la transformación.</span></li>
+            <li><strong>Cultura</strong><span>Adopción y predisposición de las personas al cambio.</span></li>
+            <li><strong>Tecnología</strong><span>Herramientas y capacidades que acompañan la ejecución.</span></li>
+          </ul>
+          <a class="btn btn-primary btn-sm" onclick="goTo('contacto')">Solicitá un diagnóstico UPCOME <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FAQs Research -->
+    <section>
+      <div class="container">
+        <div class="section-head left" data-reveal>
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Lo que más nos preguntan sobre Research &amp; Insights</h2>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="ri-acc-0"><span>¿Qué es Research &amp; Insights?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="ri-acc-0" role="region"><div class="acc-body"><p>Es la unidad de Nexus Consulting dedicada a la investigación y el diagnóstico basado en datos para empresas en Paraguay y la región, con herramientas propias como UPCOME y Revolución ZY.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="ri-acc-1"><span>¿Qué es UPCOME?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="ri-acc-1" role="region"><div class="acc-body"><p>Una herramienta online y personalizada que mide la madurez digital de tu empresa en tres ejes (estrategia, cultura y tecnología) antes de invertir en nueva tecnología.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="ri-acc-2"><span>¿Qué es Revolución ZY?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="ri-acc-2" role="region"><div class="acc-body"><p>Un estudio propio de Nexus sobre los atributos laborales más valorados por los profesionales, con foco en las diferencias entre generaciones — un insumo que usamos tanto para asesorar a clientes en marca empleadora como para nuestros propios informes de tendencias.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="ri-acc-3"><span>¿Cómo se relaciona UPCOME con un proceso de transformación integral?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="ri-acc-3" role="region"><div class="acc-body"><p>UPCOME mide específicamente la madurez y predisposición digital de la empresa en estrategia, cultura y tecnología mediante una encuesta a los colaboradores. Sus resultados pueden convertirse en uno de los insumos para priorizar decisiones dentro de un proceso de transformación más amplio.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="ri-acc-4"><span>¿Puedo encargar un estudio de mercado o sectorial a medida?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="ri-acc-4" role="region"><div class="acc-body"><p>Sí. Además de nuestros productos propios (UPCOME, Revolución ZY), Nexus realiza estudios de mercado, análisis sectoriales y diagnósticos a medida para empresas, cámaras y gremios.</p></div></div>
+        </div>
+
+        <div class="acc" data-accordion>
+          <h3 style="margin:0;"><button class="acc-btn" aria-expanded="false" aria-controls="ri-acc-5"><span>¿Qué recibo al terminar un diagnóstico UPCOME?</span><svg class="acc-ico" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></h3>
+          <div class="acc-panel" id="ri-acc-5" role="region"><div class="acc-body"><p>Un informe visual y dinámico en PowerBI con segmentaciones clave (edad, área, género, jerarquía, etc.), además de un informe técnico con hallazgos y recomendaciones estratégicas priorizadas por impacto y viabilidad.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <h2>¿Listo para que tu transformación digital tenga dirección y respaldo real?</h2>
+          <p>Empecemos por medir dónde está parada tu empresa hoy.</p>
+          <a class="btn btn-light" onclick="goTo('contacto')">Solicitá tu diagnóstico UPCOME</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       PAGE 6: NOSOTROS (EQUIPO DIRECTIVO REAL)
+       ======================================================================== -->
+  <div class="page" id="page-nosotros">
+    <section class="unit-hero">
+      <div class="orb-u"></div>
+      <div class="container">
+        <div class="breadcrumb"><a onclick="goTo('home')">Inicio</a> / Nosotros</div>
+        <button class="back-home" onclick="goTo('home')">&larr; Volver al inicio</button>
+        <span class="unit-badge">Nosotros</span>
+        <h1>Un equipo de transformación empresarial en Paraguay</h1>
+        <p class="lead measure">Combinamos estrategia, cultura, procesos y tecnología para ayudar a empresas de Paraguay y la región a tomar mejores decisiones, ordenar su gestión y ejecutar cambios sostenibles.</p>
+        <div class="nosotros-print-wrap" style="margin-top:24px;">
+          <button class="btn btn-ghost btn-sm btn-print-brief" type="button" onclick="printDossier()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            <span>Descargar perfil institucional (PDF)</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Equipo</span>
+          <h2>Quiénes te acompañan en el proceso</h2>
+        </div>
+
+        <div class="team-grid" data-reveal-group>
+          <!-- Lic. Carolina Méndez -->
+          <div class="team-card" data-reveal>
+            <img class="team-photo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Lic. Carolina Méndez" loading="lazy" decoding="async">
+            <h4>Lic. Carolina Méndez</h4>
+            <span class="role">Founder &amp; CEO</span>
+            <p>Su trayectoria profesional creando y gestionando organizaciones la posicionan como una líder carismática y una desarrolladora estratégica de negocios, con foco en transformación organizacional y desarrollo de talento.</p>
+            <a class="li" href="#" target="_blank" rel="noopener noreferrer">LinkedIn &nearr;</a>
+          </div>
+
+          <!-- Ing. Martín Benítez -->
+          <div class="team-card" data-reveal>
+            <img class="team-photo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Ing. Martín Benítez" loading="lazy" decoding="async">
+            <h4>Ing. Martín Benítez</h4>
+            <span class="role">Business Partner</span>
+            <p>Integra tecnología y negocio para acompañar el crecimiento sostenible de las organizaciones. Impulsor, socio y activo inversor en Fintech, Tech, BPO, Consultoría, Real Estate y Agronegocios.</p>
+            <a class="li" href="#" target="_blank" rel="noopener noreferrer">LinkedIn &nearr;</a>
+          </div>
+
+          <!-- Lic. Gabriel Peralta -->
+          <div class="team-card" data-reveal>
+            <img class="team-photo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Lic. Gabriel Peralta" loading="lazy" decoding="async">
+            <h4>Lic. Gabriel Peralta</h4>
+            <span class="role">Growth &amp; Partnership Associate</span>
+            <p>Especialista en desarrollo comercial, relaciones estratégicas y alianzas corporativas. Punto de contacto principal para proyectos de transformación en Paraguay y LATAM.</p>
+            <a class="li" href="#" target="_blank" rel="noopener noreferrer">LinkedIn &nearr;</a>
+          </div>
+
+          <!-- Valeria Gómez -->
+          <div class="team-card" data-reveal>
+            <img class="team-photo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Valeria Gómez" loading="lazy" decoding="async">
+            <h4>Valeria Gómez</h4>
+            <span class="role">Talent &amp; Executive Search Lead</span>
+            <p>Lidera procesos de búsqueda ejecutiva y hunting directo con enfoque estratégico, evaluando perfiles C-level y directivos alineados al futuro de cada organización.</p>
+            <a class="li" href="#" target="_blank" rel="noopener noreferrer">LinkedIn &nearr;</a>
+          </div>
+
+          <!-- Sofía -->
+          <div class="team-card" data-reveal>
+            <img class="team-photo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Sofía" loading="lazy" decoding="async">
+            <h4>Sofía</h4>
+            <span class="role">HR &amp; Operations Associate</span>
+            <p>Acompaña la coordinación operativa de proyectos, evaluación de candidatos y la gestión de People's Office para clientes corporativos.</p>
+            <a class="li" href="#" target="_blank" rel="noopener noreferrer">LinkedIn &nearr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alianzas -->
+    <section class="alt">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Alianzas</span>
+          <h2>Nuestros <span class="hl">aliados estratégicos</span></h2>
+          <p class="lead">Ampliamos capacidades junto a especialistas de confianza.</p>
+        </div>
+
+        <div class="mq" data-marquee data-mq-copy="aliados">
+          <div class="mq-track"></div>
+        </div>
+
+        <button class="mq-pause" type="button" aria-pressed="false">Pausar movimiento</button>
+
+        <p style="text-align:center; margin:34px 0 16px; font-family:'Poppins',sans-serif; font-weight:700; font-size:.76rem; letter-spacing:1.2px; color:var(--ink-soft);">SOMOS MIEMBROS DE</p>
+
+        <div class="mq" data-marquee data-mq-copy="gremios">
+          <div class="mq-track fast"></div>
+        </div>
+
+        <button class="mq-pause" type="button" aria-pressed="false">Pausar movimiento</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       PAGE 7: BOLSA DE TRABAJO (CONEXIÓN MANATAL)
+       ======================================================================== -->
+  <div class="page" id="page-jobs">
+    <section class="unit-hero">
+      <div class="orb-u"></div>
+      <div class="container">
+        <div class="breadcrumb"><a onclick="goTo('home')">Inicio</a> / <a onclick="goTo('talent')">Talent &amp; Executive Solutions</a> / Bolsa de trabajo</div>
+        <button class="back-home" onclick="goTo('talent')">&larr; Volver a Talent</button>
+        <span class="unit-badge">Talent &amp; Executive Search</span>
+        <h1>Bolsa de trabajo Nexus Consulting</h1>
+        <p class="lead measure">Conocé las búsquedas activas o dejá tu perfil para futuras oportunidades, aunque no haya una vacante abierta en este momento. Las postulaciones se gestionan en nuestro portal oficial de empleos.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="jobs-grid" data-reveal-group>
+          <div class="card" data-reveal>
+            <h4>Búsquedas activas</h4>
+            <p>Todas las posiciones ejecutivas y tecnológicas que Nexus está gestionando en este momento, con descripción completa y postulación en línea directa.</p>
+            <a class="btn btn-primary btn-sm" style="margin-top:20px;" data-manatal="jobs" href="#" target="_blank" rel="noopener noreferrer">Ver búsquedas activas &rarr;</a>
+          </div>
+
+          <div class="card" data-reveal>
+            <h4>Postulación espontánea</h4>
+            <p>Si hoy no hay una vacante que se ajuste a tu perfil, dejá tu currículum vitae para que te tengamos en cuenta de forma confidencial en futuras oportunidades.</p>
+            <a class="btn btn-ghost btn-sm" style="margin-top:20px;" data-manatal="apply" href="#" target="_blank" rel="noopener noreferrer">Dejar mi CV &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       PAGE 8: CONTACTO (HUBSPOT & DATOS OFICIALES)
+       ======================================================================== -->
+  <div class="page" id="page-contacto">
+    <section class="unit-hero">
+      <div class="orb-u"></div>
+      <div class="container">
+        <div class="breadcrumb"><a onclick="goTo('home')">Inicio</a> / Contacto</div>
+        <button class="back-home" onclick="goTo('home')">&larr; Volver al inicio</button>
+        <span class="unit-badge">Contacto</span>
+        <h1>Hablemos de tu próximo desafío</h1>
+        <p class="lead measure">Contanos qué necesita transformar tu organización. Nuestro equipo te contactará para identificar juntos el mejor punto de partida.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container contact-grid">
+        <div data-reveal>
+          <h3 style="margin-bottom:6px;">Escribinos</h3>
+          <p style="color:var(--ink-soft); font-size:.92rem; margin-bottom:22px;">Contanos brevemente qué necesitás y te contactamos.</p>
+          
+          <!-- Contenedor oficial del formulario HubSpot -->
+          <div class="hs-wrap" id="hs-form-contacto">
+            <!-- Formulario HTML de respaldo inmediato si el script externo tarda o se bloquea -->
+            <form id="contact-fallback-form" onsubmit="handleFallbackSubmit(event)" autocomplete="on">
+              <div style="display:none;" aria-hidden="true">
+                <label for="contact-hp">No completar este campo</label>
+                <input type="text" id="contact-hp" name="_hp_security_check" tabindex="-1" autocomplete="off">
+              </div>
+              <div class="form-field">
+                <label for="contact-name">Nombre y Apellido *</label>
+                <input type="text" id="contact-name" name="name" required placeholder="Ej. Juan Pérez" maxlength="80" autocomplete="name">
+              </div>
+              <div class="form-field">
+                <label for="contact-email">Correo corporativo *</label>
+                <input type="email" id="contact-email" name="email" required placeholder="juan@tuempresa.com" maxlength="120" autocomplete="email">
+              </div>
+              <div class="form-field">
+                <label for="contact-company">Empresa / Organización *</label>
+                <input type="text" id="contact-company" name="company" required placeholder="Nombre de tu empresa" maxlength="100" autocomplete="organization">
+              </div>
+              <div class="form-field">
+                <label for="contact-message">¿En qué podemos acompañarte? *</label>
+                <textarea id="contact-message" name="message" rows="4" required placeholder="Contanos brevemente tu desafío o qué área te gustaría transformar..." maxlength="2000"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="btn-submit-contact" style="width:100%;">Enviar mensaje &rarr;</button>
+            </form>
+            <div id="contact-success-msg" style="display:none; margin-top:16px; padding:18px; background:#e8f7f5; border:1px solid var(--teal); border-radius:12px; color:#0e5a55; font-size:0.92rem; text-align:center;" role="status" aria-live="polite">
+              <div style="font-weight:700; font-size:1.05rem; margin-bottom:6px; color:#0c4f4b;">Completá el contacto por WhatsApp</div>
+              <p style="margin:0 0 14px 0; color:#14635e;">El formulario no está disponible en este momento. Podés enviar los datos que preparaste directamente por WhatsApp.</p>
+              <a id="contact-success-wa-btn" href="https://wa.me/595981000000" target="_blank" rel="noopener noreferrer" class="btn btn-sm" style="display:inline-flex; align-items:center; gap:8px; background:#25D366; color:#fff; font-weight:600; border-radius:999px; text-decoration:none; padding:8px 18px;">
+                <span>Continuar por WhatsApp <span aria-hidden="true">→</span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-info" data-reveal>
+          <h3>Datos de contacto</h3>
+          <p><strong>Email:</strong><br><a href="mailto:hablemos@nexusconsulting.demo" style="color:var(--deep-blue); font-weight:600;">hablemos@nexusconsulting.demo</a></p>
+          <p><strong>Teléfono:</strong><br><a href="tel:+59521600000" style="color:var(--deep-blue); font-weight:600;">+595 21 600 000</a></p>
+          <p><strong>WhatsApp comercial:</strong><br><a href="https://wa.me/595981000000?text=Hola%20Nexus%20Solutions,%20me%20gustar%C3%ADa%20conversar%20sobre%20un%20proyecto" target="_blank" rel="noopener noreferrer" style="color:var(--teal); font-weight:700;">+595 981 000 000 &nearr;</a></p>
+          <p><strong>Oficina:</strong><br>Torre de las Américas, Piso 12, Eje Corporativo, Asunción, Paraguay</p>
+          
+          <div class="social-row" aria-label="Redes sociales de Nexus Consulting">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Nexus Consulting en Facebook" title="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Nexus Consulting en Instagram" title="Instagram">
+              <svg class="icon-outline" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Nexus Consulting en LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.2 8.2H3.4V21h2.8V8.2ZM4.8 3A1.8 1.8 0 1 0 4.8 6.6 1.8 1.8 0 0 0 4.8 3ZM21 13.7c0-3.9-2.1-5.8-4.9-5.8-2.3 0-3.3 1.2-3.8 2.1V8.2H9.5V21h2.8v-6.3c0-1.7.3-3.3 2.4-3.3 2.1 0 2.1 1.9 2.1 3.4V21H21v-7.3Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       FOOTER (PIE DE PÁGINA CORPORATIVO)
+       ======================================================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="assets/brand/Nexus_Logo_White.svg" alt="Nexus Consulting" class="logo-img logo-img-footer">
+          <p class="fnote">Transformamos tu negocio con Estrategia, Cultura, Procesos y Tecnología.</p>
+          <div class="social-row" style="margin-top:16px;">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon-outline" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M6.2 8.2H3.4V21h2.8V8.2ZM4.8 3A1.8 1.8 0 1 0 4.8 6.6 1.8 1.8 0 0 0 4.8 3ZM21 13.7c0-3.9-2.1-5.8-4.9-5.8-2.3 0-3.3 1.2-3.8 2.1V8.2H9.5V21h2.8v-6.3c0-1.7.3-3.3 2.4-3.3 2.1 0 2.1 1.9 2.1 3.4V21H21v-7.3Z"/></svg></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Servicios</h4>
+          <a onclick="goTo('smart-process')">Smart Process</a>
+          <a onclick="goTo('talent')">Talent &amp; Executive Search</a>
+          <a onclick="goTo('jobs')" style="padding-left:12px;">↳ Bolsa de trabajo</a>
+          <a onclick="goTo('business-consulting')">Business Consulting</a>
+          <a onclick="goTo('research')">Research &amp; Insights</a>
+        </div>
+
+        <div>
+          <h4>Nexus Consulting</h4>
+          <a onclick="goTo('nosotros')">Nosotros</a>
+          <a onclick="goTo('contacto')">Contacto</a>
+          <a onclick="goHomeTo('como-trabajamos')">Cómo trabajamos</a>
+          <a onclick="goHomeTo('experiencia')">Experiencia</a>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <p class="fnote">hablemos@nexusconsulting.demo</p>
+          <p class="fnote" style="margin-top:8px;">+595 21 600 000</p>
+          <p class="fnote" style="margin-top:8px;">Torre Corporativa Paseo, Piso 10<br>Asunción, Paraguay</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Nexus Consulting Group Todos los derechos reservados.</span>
+        <span>Evolución empresarial &middot; Asunción, Paraguay</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       PASTILLA FLOTANTE DE CONTACTO C-LEVEL (APARECE CON SCROLL SUAVE)
+       ======================================================================== -->
+  <aside class="floating-pill" id="floatingPill" aria-label="Contacto rápido" aria-hidden="true">
+    <a class="pill-btn pill-btn-wa" href="https://wa.me/595981000000?text=Hola%20Nexus%20Solutions,%20quisiera%20conversar%20sobre%20los%20servicios%20de%20transformaci%C3%B3n" target="_blank" rel="noopener noreferrer" title="Conversar por WhatsApp">
+      <svg class="pill-wa-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <span class="pill-divider" aria-hidden="true"></span>
+    <button class="pill-btn pill-btn-primary" type="button" onclick="goTo('contacto')">
+      <span>Hablemos</span>
+      <span class="pill-icon-circle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </span>
+    </button>
+  </aside>
+
+  <!-- ========================================================================
+       DOSSIER EJECUTIVO IMPRESO / PDF EXCLUSIVO (A4 - EXACTAMENTE 2 PÁGINAS)
+       No se muestra en pantalla; se activa únicamente al imprimir o descargar PDF
+       ======================================================================== -->
+  <div id="executive-print-dossier" class="dossier-root" aria-hidden="true">
+    <!-- PÁGINA 1: IDENTIDAD, METODOLOGÍA Y UNIDADES DE NEGOCIO -->
+    <article class="dossier-sheet dossier-sheet-1">
+      <div class="dossier-header">
+        <div class="dossier-brand">
+          <img src="assets/brand/Nexus_Logo.svg" alt="Nexus Consulting" class="dossier-logo" loading="eager" decoding="sync">
+          <div class="dossier-tagline">
+            <strong>Nexus SOLUTIONS</strong>
+            <span>Boutique de Transformación de Negocios · Asunción, Paraguay</span>
+          </div>
+        </div>
+        <div class="dossier-meta">
+          <span class="dossier-badge">PERFIL INSTITUCIONAL</span>
+          <span class="dossier-doc-id">DOSSIER EJECUTIVO 2025 / 2026</span>
+        </div>
+      </div>
+
+      <!-- Propuesta de Valor -->
+      <section class="dossier-section dossier-hero">
+        <span class="dossier-eyebrow">TRANSFORMACIÓN CON RESULTADOS MEDIBLES · ALTA DIRECCIÓN &amp; OPERACIONES</span>
+        <h1 class="dossier-title">Acompañamos a líderes y organizaciones a evolucionar con impacto sostenible</h1>
+        <p class="dossier-lead">
+          Conectamos <strong>estrategia directiva, cultura organizacional, optimización de procesos y tecnología aplicada</strong>. En Nexus Consulting no entregamos informes teóricos de estantería: diagnosticamos con rigor analítico, co-diseñamos soluciones viables e implementamos hombro a hombro junto a la alta dirección y los equipos operativos.
+        </p>
+        <div class="dossier-hero-promises">
+          <div class="promise-item">
+            <span class="promise-icon">🎯</span>
+            <div><strong>Co-Diseño In-Situ:</strong> Integrados directamente en las mesas de trabajo y comités del cliente.</div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-icon">⚡</span>
+            <div><strong>Quick-Wins Tempranos:</strong> Victorias tangibles en los primeros 30–60 días para traccionar la adopción.</div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-icon">📈</span>
+            <div><strong>Impacto en EBITDA:</strong> Cada iniciativa vinculada a metas directas de rentabilidad, margen o velocidad.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 KPIs Clave -->
+      <div class="dossier-kpi-row">
+        <div class="dossier-kpi-card">
+          <span class="dossier-kpi-num">+30</span>
+          <span class="dossier-kpi-lbl">Procesos de transformación empresarial acompañados en Paraguay</span>
+        </div>
+        <div class="dossier-kpi-card">
+          <span class="dossier-kpi-num">+50</span>
+          <span class="dossier-kpi-lbl">Líderes C-Level, directores y comités directivos facilitados</span>
+        </div>
+        <div class="dossier-kpi-card">
+          <span class="dossier-kpi-num">4</span>
+          <span class="dossier-kpi-lbl">Áreas de solución integradas bajo metodología y gobernanza propia</span>
+        </div>
+        <div class="dossier-kpi-card">
+          <span class="dossier-kpi-num">+5</span>
+          <span class="dossier-kpi-lbl">Sectores económicos clave con impacto cuantificado y medido</span>
+        </div>
+      </div>
+
+      <!-- El Enfoque Nexus: 8 Dimensiones + 4 Etapas Metodológicas -->
+      <section class="dossier-section dossier-enfoque">
+        <div class="dossier-sec-head">
+          <h2 class="dossier-sec-title">El Enfoque Nexus: Madurez Organizacional 360°</h2>
+          <span class="dossier-sec-sub">Una mirada sistémica que asegura que el cambio sea adoptado culturalmente y perdure en el tiempo</span>
+        </div>
+
+        <div class="dossier-method-grid">
+          <!-- 8 Dimensiones -->
+          <div class="dossier-dims-col">
+            <h3 class="dossier-subheading">Las 8 Dimensiones Clave</h3>
+            <div class="dossier-dims-list">
+              <div class="dim-pill"><strong>01. Estrategia:</strong> Modelo de negocio, metas cuantificadas y foco competitivo.</div>
+              <div class="dim-pill"><strong>02. Estructura:</strong> Organización ágil, claridad de roles y niveles de decisión.</div>
+              <div class="dim-pill"><strong>03. Procesos:</strong> Eficiencia operacional, simplificación y calidad de entrega.</div>
+              <div class="dim-pill"><strong>04. Personas:</strong> Reclutamiento directivo, planes de carrera y liderazgo.</div>
+              <div class="dim-pill"><strong>05. Cultura:</strong> Propósito compartido, adopción del cambio y pertenencia.</div>
+              <div class="dim-pill"><strong>06. Datos:</strong> Tableros de control (BI), KPIs y gobierno de datos.</div>
+              <div class="dim-pill"><strong>07. Tecnología:</strong> Modernización de ERP/CRM e IA aplicada en flujos.</div>
+              <div class="dim-pill"><strong>08. Gobernanza:</strong> Directorios, comités ejecutivos y rendición de cuentas.</div>
+            </div>
+          </div>
+
+          <!-- 4 Etapas -->
+          <div class="dossier-steps-col">
+            <h3 class="dossier-subheading">Nuestras 4 Fases de Ejecución</h3>
+            <div class="dossier-steps-list">
+              <div class="step-item">
+                <span class="step-badge">Fase 1</span>
+                <div>
+                  <strong>Entender:</strong> Diagnóstico de madurez 360°, escucha activa de equipos y mapa de brechas y quick-wins de alto impacto.
+                </div>
+              </div>
+              <div class="step-item">
+                <span class="step-badge">Fase 2</span>
+                <div>
+                  <strong>Diseñar:</strong> Co-creación del modelo objetivo, arquitectura de procesos y hoja de ruta de transformación ejecutable.
+                </div>
+              </div>
+              <div class="step-item">
+                <span class="step-badge">Fase 3</span>
+                <div>
+                  <strong>Implementar:</strong> Células ágiles de trabajo, gestión del cambio, adopción cultural y transferencia activa de capacidades.
+                </div>
+              </div>
+              <div class="step-item">
+                <span class="step-badge">Fase 4</span>
+                <div>
+                  <strong>Sostener:</strong> Tableros de control de gestión, gobernanza instalada y ciclo de mejora continua autosuficiente.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 Unidades de Negocio -->
+      <section class="dossier-section dossier-units">
+        <div class="dossier-sec-head">
+          <h2 class="dossier-sec-title">Nuestras Soluciones Especializadas</h2>
+          <span class="dossier-sec-sub">Servicios diseñados para abordar los desafíos directivos y operativos más críticos de la empresa</span>
+        </div>
+        <div class="dossier-units-grid">
+          <div class="unit-card">
+            <div class="unit-card-h">
+              <span class="unit-icon">⚙️</span>
+              <strong>Smart Process</strong>
+            </div>
+            <p>Relevamiento, rediseño, digitalización y automatización de procesos. Implementación de herramientas de gestión como CRM, ERP, ATS e inteligencia artificial.</p>
+          </div>
+          <div class="unit-card">
+            <div class="unit-card-h">
+              <span class="unit-icon">👥</span>
+              <strong>Talent &amp; Executive Search</strong>
+            </div>
+            <p>Búsqueda ejecutiva confidencial, hunting directo y Reverse Hunting.</p>
+          </div>
+          <div class="unit-card">
+            <div class="unit-card-h">
+              <span class="unit-icon">💻</span>
+              <strong>Business Consulting</strong>
+            </div>
+            <p>Transformación organizacional, estrategia, arquitectura organizacional, cultura, procesos y gestión del cambio.</p>
+          </div>
+          <div class="unit-card">
+            <div class="unit-card-h">
+              <span class="unit-icon">🏛️</span>
+              <strong>Research &amp; Insights</strong>
+            </div>
+            <p>Diagnósticos de madurez digital con UPCOME, estudios de mercado y análisis sectoriales.</p>
+          </div>
+        </div>
+
+        <div class="dossier-quote-strip">
+          <span class="quote-mark">“</span>
+          <p>La verdadera transformación no ocurre en informes teóricos: ocurre cuando los líderes directivos inspiran con claridad y los equipos operativos adoptan el cambio como propio.</p>
+          <strong>— Lic. Carolina Méndez, Founder &amp; CEO · Nexus Consulting</strong>
+        </div>
+      </section>
+
+      <!-- Footer Página 1 -->
+      <div class="dossier-footer">
+        <span>Nexus Consulting Group · Documento Institucional Confidencial</span>
+        <span>Torre Corporativa Paseo, Piso 10, Asunción · www.nexusconsulting.demo</span>
+        <span class="dossier-page-num">Página 1 de 2</span>
+      </div>
+    </article>
+
+    <!-- PÁGINA 2: LIDERAZGO, CLIENTES POR SECTOR, ALIANZAS Y CONTACTO -->
+    <article class="dossier-sheet dossier-sheet-2">
+      <div class="dossier-header">
+        <div class="dossier-brand">
+          <img src="assets/brand/Nexus_Logo.svg" alt="Nexus Consulting" class="dossier-logo" loading="eager" decoding="sync">
+          <div class="dossier-tagline">
+            <strong>Nexus SOLUTIONS</strong>
+            <span>Liderazgo Directivo, Trayectoria y Red de Clientes</span>
+          </div>
+        </div>
+        <div class="dossier-meta">
+          <span class="dossier-badge">TRAYECTORIA &amp; CREDENCIALES</span>
+          <span class="dossier-doc-id">ASUNCIÓN, PARAGUAY</span>
+        </div>
+      </div>
+
+      <!-- Equipo Directivo -->
+      <section class="dossier-section dossier-team">
+        <div class="dossier-sec-head">
+          <h2 class="dossier-sec-title">Liderazgo y Socios de Práctica</h2>
+          <span class="dossier-sec-sub">Equipo multidisciplinario senior con probada experiencia en alta dirección, consultoría, finanzas y tecnología</span>
+        </div>
+
+        <div class="dossier-team-grid">
+          <!-- Lic. Carolina Méndez -->
+          <div class="team-mini-card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Lic. Carolina Méndez" class="team-mini-photo" loading="eager" decoding="sync">
+            <div class="team-mini-info">
+              <strong>Lic. Carolina Méndez</strong>
+              <span class="team-mini-role">Founder &amp; CEO</span>
+              <p>Líder carismática y desarrolladora estratégica. +15 años creando y gestionando organizaciones en Paraguay y la región con foco en transformación organizacional y talento directivo.</p>
+            </div>
+          </div>
+
+          <!-- Ing. Martín Benítez -->
+          <div class="team-mini-card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Ing. Martín Benítez" class="team-mini-photo" loading="eager" decoding="sync">
+            <div class="team-mini-info">
+              <strong>Ing. Martín Benítez</strong>
+              <span class="team-mini-role">Business Partner</span>
+              <p>Integra tecnología y negocio para el crecimiento sostenible. Impulsor, socio e inversor en Fintech, Tech, BPO, Consultoría, Real Estate y Agronegocios en el Cono Sur.</p>
+            </div>
+          </div>
+
+          <!-- Lic. Gabriel Peralta -->
+          <div class="team-mini-card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Lic. Gabriel Peralta" class="team-mini-photo" loading="eager" decoding="sync">
+            <div class="team-mini-info">
+              <strong>Lic. Gabriel Peralta</strong>
+              <span class="team-mini-role">Growth &amp; Partnership</span>
+              <p>Especialista en desarrollo comercial, relaciones estratégicas y alianzas corporativas. Punto de contacto principal para proyectos de transformación en Paraguay y LATAM.</p>
+            </div>
+          </div>
+
+          <!-- Valeria Gómez -->
+          <div class="team-mini-card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Valeria Gómez" class="team-mini-photo" loading="eager" decoding="sync">
+            <div class="team-mini-info">
+              <strong>Valeria Gómez</strong>
+              <span class="team-mini-role">Executive Search</span>
+              <p>Lidera procesos de búsqueda ejecutiva y hunting directo con enfoque estratégico, evaluando directivos y perfiles C-Level alineados a la cultura futura de cada organización.</p>
+            </div>
+          </div>
+
+          <!-- Sofía -->
+          <div class="team-mini-card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23e2e8f0'%3E%3Ccircle cx='50' cy='50' r='50'/%3E%3Ccircle cx='50' cy='38' r='18' fill='%2394a3b8'/%3E%3Cpath d='M20 85c0-16.6 13.4-30 30-30s30 13.4 30 30' fill='%2394a3b8'/%3E%3C/svg%3E" alt="Sofía" class="team-mini-photo" loading="eager" decoding="sync">
+            <div class="team-mini-info">
+              <strong>Sofía</strong>
+              <span class="team-mini-role">HR &amp; Operations</span>
+              <p>Acompaña la coordinación operativa de proyectos, evaluación de candidatos y la gestión integral de People's Office para clientes corporativos de la firma.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clientes Destacados por Sector -->
+      <section class="dossier-section dossier-clients">
+        <div class="dossier-sec-head">
+          <h2 class="dossier-sec-title">Organizaciones que Han Confiado en Nexus Consulting</h2>
+          <span class="dossier-sec-sub">+30 empresas líderes y grupos económicos en los principales sectores productivos y financieros de Paraguay</span>
+        </div>
+
+        <div class="dossier-sectors-grid">
+          <!-- Banca & Finanzas -->
+          <div class="sector-card">
+            <div class="sector-card-header">
+              <span class="sector-dot dot-banca"></span>
+              <strong>Banca &amp; Finanzas (6)</strong>
+            </div>
+            <div class="sector-logos-wrap">
+              <img src="assets/brand/Continental.png" alt="Banco Continental" loading="eager" decoding="sync">
+              <img src="assets/brand/Interfisa_Banco.png" alt="Interfisa Banco" loading="eager" decoding="sync">
+              <img src="assets/brand/Banco_Basa.png" alt="Banco Basa" loading="eager" decoding="sync">
+              <img src="assets/brand/Banco_Rio.png" alt="Banco Río" loading="eager" decoding="sync">
+              <img src="assets/brand/FIC_de_Finanzas.png" alt="FIC Finanzas" loading="eager" decoding="sync">
+              <img src="assets/brand/Bepsa.png" alt="Bepsa" loading="eager" decoding="sync">
+            </div>
+            <div class="sector-card-foot">Instituciones supervisadas por BCP</div>
+          </div>
+
+          <!-- Industria & Consumo -->
+          <div class="sector-card">
+            <div class="sector-card-header">
+              <span class="sector-dot dot-ind"></span>
+              <strong>Industria &amp; Consumo (9)</strong>
+            </div>
+            <div class="sector-logos-wrap">
+              <img src="assets/brand/Cervepar.png" alt="Cervepar" loading="eager" decoding="sync">
+              <img src="assets/brand/Nestle.png" alt="Nestlé" loading="eager" decoding="sync">
+              <img src="assets/brand/Raizen.png" alt="Raízen Shell" loading="eager" decoding="sync">
+              <img src="assets/brand/Hilagro.png" alt="Hilagro" loading="eager" decoding="sync">
+              <img src="assets/brand/Seltz.png" alt="Seltz" loading="eager" decoding="sync">
+              <img src="assets/brand/Packem.png" alt="Packem" loading="eager" decoding="sync">
+            </div>
+            <div class="sector-card-foot">Multinacionales y líderes fabriles</div>
+          </div>
+
+          <!-- Cooperativas -->
+          <div class="sector-card">
+            <div class="sector-card-header">
+              <span class="sector-dot dot-coop"></span>
+              <strong>Cooperativas &amp; Gremio (8)</strong>
+            </div>
+            <div class="sector-logos-wrap">
+              <img src="assets/brand/Comecipar.png" alt="Comecipar" loading="eager" decoding="sync">
+              <img src="assets/brand/Universitaria.png" alt="Universitaria" loading="eager" decoding="sync">
+              <img src="assets/brand/Cooperativa_Nazareth.png" alt="Coop. Nazareth" loading="eager" decoding="sync">
+              <img src="assets/brand/Cooperativa_Serrana.png" alt="Coop. Serrana" loading="eager" decoding="sync">
+              <img src="assets/brand/Santo_Domingo_de_Guzman.png" alt="Santo Domingo" loading="eager" decoding="sync">
+              <img src="assets/brand/Fenacrep.png" alt="Fenacrep" loading="eager" decoding="sync">
+            </div>
+            <div class="sector-card-foot">Entidades de ahorro y crédito (INCOOP)</div>
+          </div>
+
+          <!-- Servicios & Tech -->
+          <div class="sector-card">
+            <div class="sector-card-header">
+              <span class="sector-dot dot-serv"></span>
+              <strong>Servicios, Tech &amp; Holdings (13)</strong>
+            </div>
+            <div class="sector-logos-wrap">
+              <img src="assets/brand/Mirgor.png" alt="Mirgor" loading="eager" decoding="sync">
+              <img src="assets/brand/Aseguradora_Yacyreta.png" alt="Aseguradora Yacyretá" loading="eager" decoding="sync">
+              <img src="assets/brand/Grupo_Vazquez.png" alt="Grupo Vázquez" loading="eager" decoding="sync">
+              <img src="assets/brand/Grupo_Riquelme.png" alt="Grupo Riquelme" loading="eager" decoding="sync">
+              <img src="assets/brand/Grupo_Corven.png" alt="Grupo Corven" loading="eager" decoding="sync">
+              <img src="assets/brand/Bauen.png" alt="Bauen" loading="eager" decoding="sync">
+            </div>
+            <div class="sector-card-foot">Grupos empresariales y tecnología</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Alianzas, Cámaras & Contacto Ejecutivo -->
+      <section class="dossier-section dossier-closure">
+        <div class="dossier-closure-grid">
+          <!-- Alianzas & Cámaras -->
+          <div class="dossier-alliances-box">
+            <h4>Alianzas Estratégicas y Membresías</h4>
+            <p><strong>Aliados tecnológicos y de especialidad:</strong> ITTI, Willdom, Nodica, ProActive Information Security, Factor RH, PDA International, Abya, Chus Sanz &amp; Co.</p>
+            <p style="margin-top:4px;"><strong>Cámaras y gremios sectoriales:</strong> Miembros activos de CISOFT (Cámara Paraguaya del Software), Cámara Paraguaya de Fintech y CAPACE.</p>
+            <p style="margin-top:4px; font-weight:600; color:#0f766e;">Ecosistema que amplifica nuestras capacidades analíticas, de TI y desarrollo directivo.</p>
+          </div>
+
+          <!-- Contacto Directo C-Level -->
+          <div class="dossier-contact-box">
+            <h4>Canales Directos de Consulta C-Level</h4>
+            <div class="dossier-contact-items">
+              <div>📍 <strong>Sede:</strong> Torre Corporativa Paseo, Piso 10 — Asunción, Paraguay</div>
+              <div>✉️ <strong>Email:</strong> hablemos@nexusconsulting.demo</div>
+              <div>📞 <strong>Directorio:</strong> +595 21 600 000 / +595 981 000 000</div>
+              <div>🌐 <strong>Sitio Oficial:</strong> www.nexusconsulting.demo</div>
+              <div style="margin-top:2px; color:#5eead4; font-weight:600;">💼 Sesión diagnóstica confidencial disponible para comités directivos.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Página 2 -->
+      <div class="dossier-footer">
+        <span>Nexus Consulting Group · Documento Institucional Confidencial</span>
+        <span>Torre Corporativa Paseo, Piso 10, Asunción · +595 21 600 000</span>
+        <span class="dossier-page-num">Página 2 de 2</span>
+      </div>
+    </article>
+  </div>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
