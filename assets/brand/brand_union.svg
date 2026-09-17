@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 42" width="170" height="42">
+  <g transform="translate(2, 1)">
+    <circle cx="16" cy="18" r="5" stroke="#0f172a" stroke-width="2" fill="none"/><circle cx="26" cy="18" r="5" stroke="#0f172a" stroke-width="2" fill="none"/><path d="M10,28 C12,24 20,24 22,28" stroke="#0284c7" stroke-width="2" fill="none"/><path d="M20,28 C22,24 30,24 32,28" stroke="#0284c7" stroke-width="2" fill="none"/>
+  </g>
+  <text x="44" y="22" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="14" fill="#0f172a" letter-spacing="0.5">UNION</text>
+  <text x="44" y="32" font-family="'Inter', sans-serif" font-weight="600" font-size="8" fill="#0284c7" letter-spacing="1.2">MUTUAL</text>
+</svg>

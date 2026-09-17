@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 42" width="170" height="42">
+  <g transform="translate(2, 1)">
+    <polygon points="20,10 32,28 8,28" stroke="#0f172a" stroke-width="2.5" fill="none"/><polygon points="20,16 28,28 12,28" stroke="#0284c7" stroke-width="2" fill="none"/>
+  </g>
+  <text x="44" y="22" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="14" fill="#0f172a" letter-spacing="0.5">ALIANZA</text>
+  <text x="44" y="32" font-family="'Inter', sans-serif" font-weight="600" font-size="8" fill="#0284c7" letter-spacing="1.2">COOP</text>
+</svg>

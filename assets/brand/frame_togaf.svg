@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 44" width="180" height="44">
+  <g transform="translate(2, 0)">
+    <circle cx="20" cy="22" r="11" stroke="#0f172a" stroke-width="2" fill="none"/><polygon points="20,14 27,26 13,26" stroke="#0284c7" stroke-width="2" fill="none"/>
+  </g>
+  <text x="44" y="22" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="13" fill="#0f172a" letter-spacing="0.5">TOGAF 9</text>
+  <text x="44" y="33" font-family="'Inter', sans-serif" font-weight="600" font-size="8" fill="#0284c7" letter-spacing="1.2">ENTERPRISE ARCH.</text>
+</svg>

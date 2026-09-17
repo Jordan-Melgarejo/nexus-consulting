@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 42" width="170" height="42">
+  <g transform="translate(2, 1)">
+    <polygon points="20,10 30,16 30,26 20,32 10,26 10,16" stroke="#0f172a" stroke-width="2.5" fill="none"/><line x1="20" y1="20" x2="30" y2="16" stroke="#0284c7" stroke-width="1.5"/>
+  </g>
+  <text x="44" y="22" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="14" fill="#0f172a" letter-spacing="0.5">KORTEK</text>
+  <text x="44" y="32" font-family="'Inter', sans-serif" font-weight="600" font-size="8" fill="#0284c7" letter-spacing="1.2">PACK</text>
+</svg>

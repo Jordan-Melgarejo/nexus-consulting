@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 42" width="170" height="42">
+  <g transform="translate(2, 1)">
+    <polygon points="20,10 24,18 32,20 26,26 28,32 20,28 12,32 14,26 8,20 16,18" stroke="#0284c7" stroke-width="2" fill="none"/>
+  </g>
+  <text x="44" y="22" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="14" fill="#0f172a" letter-spacing="0.5">ORION</text>
+  <text x="44" y="32" font-family="'Inter', sans-serif" font-weight="600" font-size="8" fill="#0284c7" letter-spacing="1.2">BPO</text>
+</svg>

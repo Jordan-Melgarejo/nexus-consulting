@@ -1968,7 +1968,7 @@ section.alt .mq {
 /* ===========================================================================
    UPCOME — MARCO EXPLICATIVO (SIN AUTODIAGNÓSTICO)
    ========================================================================== */
-.upcome-framework {
+.dexa-framework {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr) auto;
   gap: 32px;
@@ -1978,18 +1978,18 @@ section.alt .mq {
   border-top: 1px solid var(--line);
 }
 
-.upcome-framework h3 {
+.dexa-framework h3 {
   font-size: 1.35rem;
   margin-bottom: 10px;
 }
 
-.upcome-framework p {
+.dexa-framework p {
   max-width: 42ch;
   color: var(--ink-soft);
   font-size: 0.94rem;
 }
 
-.upcome-axes {
+.dexa-axes {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
@@ -1998,23 +1998,23 @@ section.alt .mq {
   list-style: none;
 }
 
-.upcome-axes li {
+.dexa-axes li {
   min-height: 104px;
   padding: 16px 0 0 16px;
   border-top: 2px solid var(--teal);
 }
 
-.upcome-axes strong,
-.upcome-axes span {
+.dexa-axes strong,
+.dexa-axes span {
   display: block;
 }
 
-.upcome-axes strong {
+.dexa-axes strong {
   color: var(--ink);
   font: 700 0.96rem 'Poppins', system-ui, sans-serif;
 }
 
-.upcome-axes span {
+.dexa-axes span {
   margin-top: 7px;
   color: var(--ink-soft);
   font-size: 0.82rem;
@@ -2632,7 +2632,7 @@ footer .social-row a:hover {
   .contact-grid {
     grid-template-columns: 1fr;
   }
-  .upcome-framework {
+  .dexa-framework {
     grid-template-columns: 1fr;
     gap: 24px;
   }
@@ -2663,11 +2663,11 @@ footer .social-row a:hover {
     opacity: 1;
     transform: none;
   }
-  .upcome-axes {
+  .dexa-axes {
     grid-template-columns: 1fr;
     gap: 8px;
   }
-  .upcome-axes li {
+  .dexa-axes li {
     min-height: 0;
     padding: 11px 0 0 14px;
   }
@@ -3396,7 +3396,7 @@ button:active,
     gap: 8px !important;
   }
 
-  .dossier-upcome-badge {
+  .dossier-dexa-badge {
     background: #f0fdf4 !important;
     border: 1px solid #bbf7d0 !important;
     padding: 6.5px 10px !important;
@@ -3406,7 +3406,7 @@ button:active,
     line-height: 1.32 !important;
   }
 
-  .dossier-upcome-badge strong {
+  .dossier-dexa-badge strong {
     color: #15803d !important;
   }
 

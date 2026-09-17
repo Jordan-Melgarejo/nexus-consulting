@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 42" width="170" height="42">
+  <g transform="translate(2, 1)">
+    <circle cx="14" cy="20" r="4" fill="#0f172a"/><circle cx="26" cy="20" r="4" fill="#0284c7"/><path d="M14,20 Q20,12 26,20 Q20,28 14,20" stroke="#64748b" stroke-width="2" fill="none"/>
+  </g>
+  <text x="44" y="22" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="14" fill="#0f172a" letter-spacing="0.5">FLUX</text>
+  <text x="44" y="32" font-family="'Inter', sans-serif" font-weight="600" font-size="8" fill="#0284c7" letter-spacing="1.2">NETWORK</text>
+</svg>
