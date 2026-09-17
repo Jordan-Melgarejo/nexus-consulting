@@ -30,8 +30,8 @@
       "d": "Consultoría de transformación organizacional: estrategia, cultura, estructura, procesos y gestión del cambio para empresas en Paraguay."
     },
     "research": {
-      "t": "Diagnóstico de Madurez Digital UPCOME | Nexus Consulting",
-      "d": "Medimos la madurez digital de tu empresa en estrategia, cultura y tecnología con UPCOME. Estudios de mercado y análisis sectoriales en Paraguay."
+      "t": "Diagnóstico de Madurez Digital Nexus DEXA™ | Nexus Consulting",
+      "d": "Medimos la madurez digital de tu empresa en estrategia, procesos y tecnología con Nexus DEXA™. Estudios de mercado y análisis sectoriales en Paraguay."
     },
     "nosotros": {
       "t": "Quiénes Somos | Nexus Consulting Paraguay",
@@ -43,7 +43,7 @@
     },
     "contacto": {
       "t": "Contacto | Nexus Consulting Paraguay",
-      "d": "Hablemos sobre tu proyecto de transformación. Oficina en Torre Corporativa Paseo, Asunción. Teléfono +595 21 600 000."
+      "d": "Hablemos sobre tu proyecto de transformación. Oficina en World Trade Center Asunción. Teléfono +595 21 600 000."
     }
   };
 
@@ -347,7 +347,7 @@
   })();
 
   /* ==========================================================================
-     7. ENFOQUE GROW — SPLIT STICKY SCROLL & DIMENSION ILLUMINATION
+     7. ENFOQUE NEXUS — SPLIT STICKY SCROLL & DIMENSION ILLUMINATION
      ========================================================================== */
   (function () {
     var steps = [].slice.call(document.querySelectorAll('[data-step]'));
